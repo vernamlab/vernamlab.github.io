@@ -3,7 +3,7 @@ title: "Vernam Lab - Openings"
 layout: textlay
 excerpt: "Openings"
 sitemap: false
-permalink: /vacancies
+permalink: /openings
 ---
 
 **Multiple fully funded Ph.D. positions are available at the [Vernam Lab]
