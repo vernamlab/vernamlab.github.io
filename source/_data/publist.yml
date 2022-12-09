@@ -10,6 +10,7 @@
 - title: "Architecture Support for Bitslicing"
   image: bitslicing.png
   description: The bitsliced programming model has shown to boost the throughput of software programs. However, on a standard architecture, it exerts a high pressure on register access, causing memory spills and restraining the full potential of bitslicing. In this work, we present architecture support for bitslicing in a System-on-Chip. Our hardware extensions are of two types; internal to the processor core, in the form of custom instructions, and external to the processor, in the form of direct memory access module with support for data transposition. We present a comprehensive performance evaluation of the proposed enhancements in the context of several RISC-V ISA definitions (RV32I, RV64I, RV32B, RV64B). The proposed 14 new custom instructions use 1.5× fewer registers compared to the equivalent functionality expressed using RISC-V instructions. The integration of those custom instructions in a 5-stage pipelined RISC-V RV32I core incurs 10.21% and 12.72% overhead respectively in area and cell count using the SkyWater 130 nm standard cell library. The proposed bitslice transposition unit with DMA provides a further speedup, changing the quadratic increase in execution time of data transposition to linear. Finally, we demonstrate a comprehensive performance evaluation using a set of benchmarks of lightweight and masked ciphers.
+  authors: Pantea Kiaei, Thomas Conroy, Patrick Schaumont
   link:
     url: https://doi.org/10.1109/TETC.2022.3215480
     display: IEEE Transactions on Emerging Topics in Computing (25 October 2022)
@@ -18,6 +19,7 @@
 - title: "SoC Root Canal! Root Cause Analysis of Power Side-Channel Leakage in System-on-Chip Designs"
   image: rootcanal.png
   description: Finding the root cause of power-based side-channel leakage becomes harder when multiple layers of design abstraction are involved. While side-channel leakage originates in processor hardware, the dangerous consequences may only become apparent in the cryptographic software that runs on the processor. This contribution presents RootCanal, a methodology to explain the origin of side-channel leakage in a software program in terms of the underlying micro-architecture and system architecture. We simulate the hardware power consumption at the gate level and perform a non-specific test to identify the logic gates that contribute most sidechannel leakage. Then, we back-annotate those findings to the related activities in the software. The resulting analysis can automatically point out non-trivial causes of side-channel leakages. To illustrate RootCanal’s capabilities, we discuss a collection of case studies.
+  authors: Pantea Kiaei, Patrick Schaumont
   link:
     url: https://doi.org/10.46586/tches.v2022.i4.751-773
     display: TCHES 2022 Issue 4
