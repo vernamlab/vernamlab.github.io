@@ -56,20 +56,20 @@ results and the coolest solutions.
 </div>
 
 
-Graduate students, we are always looking for new candidates in the
+**Graduate students**, we are always looking for new candidates in the
 field! If you are thrilled by research opportunities and discovery, if
 you never give up and strive to be the best of the best, then we want
 to hear from you. Consult our employment opportunities to see a list
 of open positions for graduate school.
 
-Undergraduate students, Vernam Lab offers you an opportunity for a
+**Undergraduate students**, Vernam Lab offers you an opportunity for a
 cutting edge research experience and MQP (Master Qualifying
 Project). In the past few years, we have worked on the design of
 secure hardware and software, advanced design methods for secure chip
 design, first-of-a-kind prototypes of secure chips, and much
 more. Reach out to faculty and consult the list of MQP projects.
 
-Visitors and post-docs, are you considering a sabbatical, a post-doc,
+**Visitors and post-docs**, are you considering a sabbatical, a post-doc,
 a short-term research visit in an advanced research environment? Get
 in touch! Consult our employment opportunities or drop us a note. We’d
 love to hear from you!
