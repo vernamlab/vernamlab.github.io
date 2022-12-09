@@ -27,7 +27,7 @@ results and the coolest solutions.
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
         <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/equipment_riscure.png" alt="Slide 1" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/vernamgroup.png" alt="Slide 1" />
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/equipment_alphanov.png" alt="Slide 2" />
@@ -40,6 +40,9 @@ results and the coolest solutions.
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/equipment_keysight.png" alt="Slide 5" />
+        </div>
+         <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/equipment_riscure.png" alt="Slide 6" />
         </div>
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
@@ -74,15 +77,15 @@ love to hear from you!
 We are grateful for funding from the NSF, MassTech, DARPA, SRC, Meta, CISCO, EPRI, and Intel.
 
 <figure class="fourth">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logo_nsf.png" style="width: 150px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logo_nsf.png" style="width: 120px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logo_masstech.png" style="width: 150px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logo_src.png" style="width: 150px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logo_cisco.png" style="width: 150px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logo_src.png" style="width: 80px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logo_cisco.png" style="width: 80px">
 </figure>
 
 <figure class="fourth">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logo_darpa.png" style="width: 150px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logo_intel.png" style="width: 150px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logo_epri.png" style="width: 150px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logo_meta.png" style="width: 150px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logo_darpa.png" style="width: 120px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logo_intel.png" style="width: 120px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logo_epri.png" style="width: 100px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logo_meta.png" style="width: 100px">
 </figure>
