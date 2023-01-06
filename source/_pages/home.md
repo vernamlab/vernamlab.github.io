@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-We are a group of researchers in hardware security. Our
+We are a smart group of researchers in hardware security. Our
 students explore new avenues in making future computer systems and
 computer hardware more reliable, more efficient, and more secure. We
 explore offensive and defensive avenues to come up with the hottest
