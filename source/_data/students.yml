@@ -17,8 +17,93 @@
   education2: MS Worcester Polytechnic Institute
 
 - name: Dillibabu Shanmugam
-  photo: dillibabushanmugam.png
+  photo: dillibabu.png
   info: PhD Student
   email: dshanmugam@wpi.edu
   number_educ: 1
   education1: BS Anna University
+
+- name: Andrew J.Adiletta
+  photo: andrew.png
+  info: PhD Student
+  email: ajadiletta@wpi.edu
+  number_educ: 0
+ # education1: BS Trinity University
+ # education2: MS Worcester Polytechnic Institute
+
+- name: Kemal Derya
+  photo: kemal.png
+  info: PhD Student
+  email: kderya@wpi.edu
+  number_educ: 0
+  #education1: BS Anna University
+
+- name: Mohammad Hashemi
+  photo: mohammad.png
+  info: PhD Student
+  email: mhashemi@wpi.edu
+  number_educ: 0
+  #education1: BS Anna University
+
+- name: Dev Mehta
+  photo: dev.png
+  info: PhD Student
+  email: dmmehta2@wpi.edu
+  number_educ: 0
+ # education1: BS Trinity University
+ # education2: MS Worcester Polytechnic Institute
+
+- name: Saleh K.Monfared
+  photo: saleh.png
+  info: PhD Student
+  email: skmonfared@wpi.edu
+  number_educ: 0
+  #education1: BS Anna University
+
+- name: Tahoura Mosavirik
+  photo: tahoura.png
+  info: PhD Student
+  email: tmosavirik@wpi.edu
+  number_educ: 0
+  #education1: BS Anna University
+
+- name: Kristi Rahman
+  photo: kristi.png
+  info: PhD Student
+  email: krahman@wpi.edu
+  number_educ: 0
+ # education1: BS Trinity University
+ # education2: MS Worcester Polytechnic Institute
+
+- name: Maryam Saadat Safa
+  photo: maryam.png
+  info: PhD Student
+  email: msafa@wpi.edu
+  number_educ: 0
+  #education1: BS Anna University
+
+- name: M. Caner Tol
+  photo: caner.png
+  info: PhD Student
+  email: mtol@wpi.edu
+  number_educ: 0
+  #education1: BS Anna University
+
+- name: Zane Weissman
+  photo: zane.png
+  info: PhD Student
+  email: zweissman@wpi.edu
+  number_educ: 0
+ # education1: BS Trinity University
+ # education2: MS Worcester Polytechnic Institute
+
+- name: Victor Mercola
+  photo: victor.png
+  info: PhD Student
+  email: vsmercola@wpi.edu
+  number_educ: 0
+  #education1: BS Anna University
+
+
+
+
