@@ -17,7 +17,7 @@
   education2: MS Worcester Polytechnic Institute
 
 - name: Dillibabu Shanmugam
-  photo: dillibabu.png
+  photo: dillibabu.jpg
   info: PhD Student
   email: dshanmugam@wpi.edu
   number_educ: 1
@@ -32,7 +32,7 @@
  # education2: MS Worcester Polytechnic Institute
 
 - name: Kemal Derya
-  photo: kemal.jpg
+  photo: kemal.jpeg
   info: PhD Student
   email: kderya@wpi.edu
   number_educ: 0
@@ -54,7 +54,7 @@
  # education2: MS Worcester Polytechnic Institute
 
 - name: Saleh K.Monfared
-  photo: saleh.jpg
+  photo: saleh.jpeg
   info: PhD Student
   email: skmonfared@wpi.edu
   number_educ: 0
@@ -83,7 +83,7 @@
   #education1: BS Anna University
 
 - name: M. Caner Tol
-  photo: caner.jpg
+  photo: caner.jpeg
   info: PhD Student
   email: mtol@wpi.edu
   number_educ: 0
