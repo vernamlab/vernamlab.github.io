@@ -73,7 +73,7 @@
  -->
     <div class="container-fluid">
       <div class="row">
-        <div id="gridid" class="col-sm-12">
+        <div id="textid" class="col-sm-12">
   <h1 id="list-of-publications">List of Publications</h1>
 
 <!-- Berk Papers -->
@@ -84,67 +84,120 @@
 
 <style>
 *
-/* Expand the theme's max-width to something reasonable. */
-.site-content .entry-header,
-.site-content .entry-summary,
-.site-content .entry-meta,
-.page-content .post-navigation,
-.image-navigation .archive-header,
-.page-header .contributor-info,
-.comments-area .site-main,
-.mu_register,
-.widecolumn > h2,
-.widecolumn > form {
-	max-width: 674px;
+
+.bibbase_group {
+    /* background-color: #D0D0E0; */
+    background-color: #E0E0E0;
+    font-style: italic;
+    font-size: larger;
+    text-shadow: 0px 0px 3px #FFFFFF;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px;
+    padding: 5px 40px 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
 }
 
-/* Zotpress: hide loading icon. */
-.zp-List.loading {
-background: none !important;
-padding-bottom: 0em !important;
+.bibbase_group_body {
+    margin-left: 20px;
 }
 
-/* Remove "Powered by Wordpress" footer. */
-.site-info {
-   display: none;
+
+img.bibbase_icon {
+    width: 20px;
+    max-height: 20px;
+    vertical-align: middle;
+    font-size: medium;
+    color: green;
+
+    filter: url("data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'><filter%20id='grayscale'><feColorMatrix%20type='matrix'%20values='0.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200%200%200%201%200'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+    filter: grayscale(100%); /* Current draft standard */
+    -webkit-filter: grayscale(100%); /* New WebKit */
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: gray; /* IE6+ */
+}
+span.bibbase_icon_text{
+    font-size: medium;
+    color: green;
 }
 
-/* Remove Feedgrabbr banner. */
-.uw-w-branding {
-  display: none !important;
+img.bibbase_icon:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
 }
 
-/* BibBase: prettify awards. */
-.bibbase_paper .note {
-  font-style: italic;
-  color: blue;
+
+
+/* span.bibbase_icon_text { */
+/*     display: none; */
+/* } */
+
+.bibbase_code {
+    width: 80%
 }
 
-/* People page style. */
-.tmm_photo {
-	-webkit-filter: grayscale(0);
-	filter: grayscale(0);
-	-webkit-transition: .2s ease-in-out;
-	transition: .2s ease-in-out;
-}
-.tmm_photo:hover {
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
+.comment {
+    font-size: smaller;
+    font-style: italic;
+    color: gray;
 }
 
-.tmm_fname:after { 
-     content:"\A"; white-space:pre; 
+.recommended {
+    color: green;
 }
 
-.entry-content {
+/* bootstrap */
+
+.bibbase_msg {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+#bibbase_embed_modal {
+    width: 70%;
+    left: 15%;
+    margin: 0;
+}
+
+.bibbase.well {
+    margin: 20px;
+    overflow-wrap: break-word;
+}
+
+.bibbase.link {
+    text-decoration: none;
+font-size: medium;
+color: green;
+}
+
+.bibbase_paper_content {
+    font-size: smaller;
+}
+
+.bibbase_artifact_badge {
+  width: 1.2em;
+  height: 1.2em;
+
+  vertical-align: text-top;
+}
+
+
+
+.gg {
 	hyphens: manual;
 	text-align: justify;
 	text-justify: inter-word;
+    /* color: green; */
 }
 
 </style>
 
-<div class="entry-content">
+<div class="gg img.bibbase_icon_text">
   <script src="https://bibbase.org/show?bib=https://raw.githubusercontent.com/vernamlab/vernamlab.github.io/main/docs/testproduction_39fgh4d6/downloads/papers.bib&amp;theme=default&amp;jsonp=1&amp;owner=none&amp;sort=-year."></script>
 
 </div>
