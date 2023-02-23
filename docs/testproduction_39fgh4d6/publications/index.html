@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vernam Lab - Publications</title>
+  <meta name="description" content="Vernam Lab -- Publications.">
+  <link rel="stylesheet" href="http://localhost:4000/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/publications/">
+<link rel="shortcut icon" type ="image/x-icon" href="http://localhost:4000/images/favicon.ico">
+  
+</head>
+
+
+  <body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	  </button>
+	
+    <a class="navbar-brand" href="http://localhost:4000/">Vernam Lab at WPI</a>
+	</div>
+	<div class="collapse navbar-collapse" id="navbar-collapse-1">
+	  <ul class="nav navbar-nav navbar-right">
+		<li><a href="http://localhost:4000/">Home</a></li>
+		<li><a href="http://localhost:4000/team">Team</a></li>
+		<li><a href="http://localhost:4000/publications">Publications</a></li>
+		<li><a href="http://localhost:4000/research">Research</a></li>
+		<li><a href="http://localhost:4000/openings">Openings</a></li>
+	  </ul>
+	</div>
+  </div>
+</div>
+
+<!-- 
+<div id="social-media">
+    
+    
+        
+        
+            <a href="mailto:your.name@yoursite.com" title="Email"><i class="fa-brands fa-square-envelope"></i></a>
+
+        
+    
+        
+        
+            <a href="https://www.facebook.com/your-facebook-username" title="Facebook"><i class="fa-brands fa-square-facebook"></i></a>
+
+        
+    
+        
+        
+            <a href="https://www.twitter.com/your-twitter-name" title="Twitter"><i class="fa-brands fa-square-twitter"></i></a>
+
+        
+    
+        
+        
+            <a href="https://github.com/your-github-name" title="GitHub"><i class="fa-brands fa-square-github fa-bounce"></i></a>
+
+        
+    
+</div>
+
+ -->
+    <div class="container-fluid">
+      <div class="row">
+        <div id="gridid" class="col-sm-12">
+  <h1 id="publications">Publications</h1>
+
+<h2 id="full-list-of-publications">Full List of Publications</h2>
+
+<p><strong>To see the full list of publciations please refer to</strong> <a href="http://localhost:4000/publist">Full 
+Publications Page</a></p>
+
+<h2 id="featured-publications">Featured Publications</h2>
+
+<div class="row">
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit>ImpedanceVerif: On-Chip Impedance Sensing for System-Level Tampering Detection</pubtit>
+      <p><img src="http://localhost:4000/images/impedanceverif.png" class="img-responsive" width="33%" style="float: left" /></p>
+      <p>Physical attacks can compromise the security of cryptographic devices. Depending on the attack’s requirements, adversaries might need to (i) place probes in the proximity of the integrated circuits (ICs) package, (ii) create physical connections between their probes/wires and the system’s PCB, or (iii) physically tamper with the PCB’s components, chip’s package, or substitute the entire PCB to prepare the device for the attack. While tamper-proof enclosures prevent and detect physical access to the system, their high manufacturing cost and incompatibility with legacy systems make them unattractive for many low-cost scenarios. In this paper, inspired by methods known from the field of power integrity analysis, we demonstrate how the impedance characterization of the system’s power distribution network (PDN) using on-chip circuit-based network analyzers can detect various classes of tamper events. We explain how these embedded network analyzers, without any modifications to the system, can be deployed on FPGAs to extract the frequency response of the PDN. The analysis of these frequency responses reveals different classes of tamper events from board to chip level. To validate our claims, we run an embedded network analyzer on FPGAs of a family of commercial development kits and perform extensive measurements for various classes of PCB and IC package tampering required for conducting different side-channel or fault attacks. Using the Wasserstein Distance as a statistical metric, we further show that we can confidently detect tamper events. Our results, interestingly, show that even environment-level tampering activities, such as the proximity of contactless EM probes to the IC package or slightly polished IC package, can be detected using on-chip impedance sensing.</p>
+      <p><em>Tahoura Mosavirik, Patrick Schaumont, Shahin Tajik</em></p>
+      <p><strong><a href="https://tches.iacr.org/index.php/TCHES/article/view/9954">TCHES 2023 Issue 1</a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit>Architecture Support for Bitslicing</pubtit>
+      <p><img src="http://localhost:4000/images/bitslicing.png" class="img-responsive" width="33%" style="float: left" /></p>
+      <p>The bitsliced programming model has shown to boost the throughput of software programs. However, on a standard architecture, it exerts a high pressure on register access, causing memory spills and restraining the full potential of bitslicing. In this work, we present architecture support for bitslicing in a System-on-Chip. Our hardware extensions are of two types; internal to the processor core, in the form of custom instructions, and external to the processor, in the form of direct memory access module with support for data transposition. We present a comprehensive performance evaluation of the proposed enhancements in the context of several RISC-V ISA definitions (RV32I, RV64I, RV32B, RV64B). The proposed 14 new custom instructions use 1.5× fewer registers compared to the equivalent functionality expressed using RISC-V instructions. The integration of those custom instructions in a 5-stage pipelined RISC-V RV32I core incurs 10.21% and 12.72% overhead respectively in area and cell count using the SkyWater 130 nm standard cell library. The proposed bitslice transposition unit with DMA provides a further speedup, changing the quadratic increase in execution time of data transposition to linear. Finally, we demonstrate a comprehensive performance evaluation using a set of benchmarks of lightweight and masked ciphers.</p>
+      <p><em>Pantea Kiaei, Thomas Conroy, Patrick Schaumont</em></p>
+      <p><strong><a href="https://doi.org/10.1109/TETC.2022.3215480">IEEE Transactions on Emerging Topics in Computing (25 October 2022)</a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+</div>
+
+<p>   </p>
+
+<!-- ## Featured Publications
+
+
+
+  ImpedanceVerif: On-Chip Impedance Sensing for System-Level Tampering Detection <br />
+  <em>Tahoura Mosavirik, Patrick Schaumont, Shahin Tajik </em><br /><a href="https://tches.iacr.org/index.php/TCHES/article/view/9954">TCHES 2023 Issue 1</a>
+
+
+
+  Architecture Support for Bitslicing <br />
+  <em>Pantea Kiaei, Thomas Conroy, Patrick Schaumont </em><br /><a href="https://doi.org/10.1109/TETC.2022.3215480">IEEE Transactions on Emerging Topics in Computing (25 October 2022)</a>
+
+
+
+  SoC Root Canal! Root Cause Analysis of Power Side-Channel Leakage in System-on-Chip Designs <br />
+  <em>Pantea Kiaei, Patrick Schaumont </em><br /><a href="https://doi.org/10.46586/tches.v2022.i4.751-773">TCHES 2022 Issue 4</a>
+
+ -->
+
+</div>
+
+      </div>
+    </div>
+
+    <div id="footer" class="panel">
+  <div class="panel-footer">
+	<div class="container-fluid">
+	  <div class="row">
+		<div class="col-sm-4">
+
+		  <p>&copy 2012 Vernam Lab. <br> Site made with <a href="https://jekyllrb.com">Jekyll</a> and input from <a href="https://www.allanlab.org/">Allan Lab</a>.
+
+              <p>We are part of
+              the <a href="https://www.wpi.edu/academics/departments/electrical-computer-engineering">Electrical
+              and Computer Engineering Department</a>
+              at <a href="https://www.wpi.edu">Worcester Polytechnic
+              Institute</a>.</p>
+              <p>Follow as on Twitter <i class="fa-brands fa-twitter fa-bounce"></i> <a href="https://twitter.com/VernamGroup">
+				@VernamGroup</a>.</p>
+		</div>
+
+		<div class="col-sm-4">
+		  Contact:<br />
+		  Atwater Kent 212, WPI<br />
+		  100 Institute Road<br />
+		  Worcester<br />
+		  MA 01609 USA <br />
+            (<a href="https://maps.wpi.edu/?id=609#!ct/?m/366618">Maps</a>, <a href="https://www.wpi.edu/coming-to-campus">Directions</a>)
+		</div>
+	  </div>
+	</div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://localhost:4000/js/bootstrap.min.js"></script>
+
+
+  </body>
+
+</html>
