@@ -85,6 +85,14 @@
 <style>
 *
 
+bibbase_header i {
+    width: 32px;
+    text-align: center;
+    margin-right: 5px;
+    font-size: 16px;
+
+}
+
 .bibbase_group {
     /* background-color: #D0D0E0; */
     background-color: #E0E0E0;
@@ -109,8 +117,11 @@ img.bibbase_icon {
     width: 20px;
     max-height: 20px;
     vertical-align: middle;
-    font-size: medium;
+    /* font-size: medium; */
     color: green;
+  margin-bottom: 0;
+  margin-top: 0;
+  border-radius: 0;
 
     filter: url("data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'><filter%20id='grayscale'><feColorMatrix%20type='matrix'%20values='0.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200%200%200%201%200'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
     filter: grayscale(100%); /* Current draft standard */
@@ -121,8 +132,9 @@ img.bibbase_icon {
     filter: gray; /* IE6+ */
 }
 span.bibbase_icon_text{
-    font-size: medium;
-    color: green;
+    /* font-size: medium; */
+    color: blue;
+line-height: 30%;
 }
 
 img.bibbase_icon:hover {
@@ -132,13 +144,10 @@ img.bibbase_icon:hover {
 
 
 
-/* span.bibbase_icon_text { */
-/*     display: none; */
-/* } */
+ /* span.bibbase_icon_text { 
+  display: none; 
+}  */
 
-.bibbase_code {
-    width: 80%
-}
 
 .comment {
     font-size: smaller;
@@ -193,14 +202,29 @@ color: green;
 	text-align: justify;
 	text-justify: inter-word;
     /* color: green; */
+      line-height: normal;
+
 }
 
 </style>
 
-<div class="gg img.bibbase_icon_text">
-  <script src="https://bibbase.org/show?bib=https://raw.githubusercontent.com/vernamlab/vernamlab.github.io/main/docs/testproduction_39fgh4d6/downloads/papers.bib&amp;theme=default&amp;jsonp=1&amp;owner=none&amp;sort=-year."></script>
+<h4>For the publications list of each of our faculties refer to: <a href="https://dblp.org/pid/137/6331.html"> Fatemeh Ganji, </a> <a href="https://dblp.org/pid/39/1269.html"> Patrick Schaumont, </a> <a href="https://dblp.org/pid/91/465.html"> Berk Sunar, </a> <a href="https://dblp.org/pid/139/7378.html"> Shain Tajik </a>
+</h4>
 
+<body onload="toggleAll()">
+  <font size="+1">
+<h4>Vernam Lab Papers:</h4> 
+<div class="gg img.bibbase_icon_text">
+<script src="https://bibbase.org/show?bib=https://raw.githubusercontent.com/vernamlab/vernamlab.github.io/main/docs/testproduction_39fgh4d6/downloads/papers.bib&amp;theme=default&amp;owner=none&amp;filter=year:(201.|202.|20.|19.)&amp;fullnames=1&amp;jsonp=1&amp;showSearch=1"></script>
 </div>
+</font>
+
+  <!-- <script src="https://bibbase.org/show?bib=https://raw.githubusercontent.com/vernamlab/vernamlab.github.io/main/docs/testproduction_39fgh4d6/downloads/papers.bib&theme=default&jsonp=1&owner=none&sort=-year&filter=authors:Sunar."></script> -->
+
+  <!-- <script src="https://bibbase.org/show?bib=https%3A%2F%2Fcomsec.ethz.ch%2Fwp-content%2Ffiles%2Fbibtex.bib&css=none&owner=&filter=authors:Razavi,keywords:(type_tier1|type_award),year:(2023|2022|2021)&fullnames=1&jsonp=1"></script> -->
+
+  <!-- <script src="https://bibbase.org/show?bib=https%3A%2F%2Fdownload.vusec.net%2Fpapers%2Fzotero.php%3Ftag%3D%26full%3D1%26format%3Dbibtex%26sort%3Ddate&theme=default&jsonp=1&showSearch=1&owner=none&filter=keywords:type_paper,"></script> -->
+</body>
 
 </div>
 

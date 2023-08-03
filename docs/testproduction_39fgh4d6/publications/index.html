@@ -74,24 +74,23 @@
     <div class="container-fluid">
       <div class="row">
         <div id="gridid" class="col-sm-12">
-  <h1 id="publications">Publications</h1>
-
-<h2 id="full-list-of-publications">Full List of Publications</h2>
+  <h2 id="full-list-of-publications">Full List of Publications</h2>
 
 <p><strong>To see the full list of publciations please refer to</strong> <a href="https://vernamlab.org/testproduction_39fgh4d6/publist">Full 
 Publications Page</a></p>
 
 <h2 id="featured-publications">Featured Publications</h2>
+<p><b>Here are our latest published papers:</b></p>
 
 <div class="row">
 
   <div class="col-sm-6 clearfix">
     <div class="well">
-      <pubtit>ImpedanceVerif: On-Chip Impedance Sensing for System-Level Tampering Detection</pubtit>
-      <p><img src="https://vernamlab.org/testproduction_39fgh4d6/images/impedanceverif.png" class="img-responsive" width="33%" style="float: left" /></p>
-      <p>Physical attacks can compromise the security of cryptographic devices. Depending on the attack’s requirements, adversaries might need to (i) place probes in the proximity of the integrated circuits (ICs) package, (ii) create physical connections between their probes/wires and the system’s PCB, or (iii) physically tamper with the PCB’s components, chip’s package, or substitute the entire PCB to prepare the device for the attack. While tamper-proof enclosures prevent and detect physical access to the system, their high manufacturing cost and incompatibility with legacy systems make them unattractive for many low-cost scenarios. In this paper, inspired by methods known from the field of power integrity analysis, we demonstrate how the impedance characterization of the system’s power distribution network (PDN) using on-chip circuit-based network analyzers can detect various classes of tamper events. We explain how these embedded network analyzers, without any modifications to the system, can be deployed on FPGAs to extract the frequency response of the PDN. The analysis of these frequency responses reveals different classes of tamper events from board to chip level. To validate our claims, we run an embedded network analyzer on FPGAs of a family of commercial development kits and perform extensive measurements for various classes of PCB and IC package tampering required for conducting different side-channel or fault attacks. Using the Wasserstein Distance as a statistical metric, we further show that we can confidently detect tamper events. Our results, interestingly, show that even environment-level tampering activities, such as the proximity of contactless EM probes to the IC package or slightly polished IC package, can be detected using on-chip impedance sensing.</p>
-      <p><em>Tahoura Mosavirik, Patrick Schaumont, Shahin Tajik</em></p>
-      <p><strong><a href="https://tches.iacr.org/index.php/TCHES/article/view/9954">TCHES 2023 Issue 1</a></strong></p>
+      <pubtit>LeakyOhm: Secret Bits Extraction using Impedance Analysis</pubtit>
+      <p><img src="https://vernamlab.org/testproduction_39fgh4d6/images/papers/leaky.png" class="img-responsive" width="100" style="float: left" /></p>
+      <p>The threat of physical side-channel attacks and their countermeasures is a widely researched field. Most physical side-channel attacks rely on the unavoidable influence of computation or storage on voltage or current fluctuations. Such data-dependent influence can be exploited by, for instance, power or electromagnetic analysis. In this work, we introduce a novel non-invasive physical side-channel attack, which exploits the data-dependent changes in the impedance of the chip. Our attack relies on the fact that the temporarily stored contents in registers alter the physical characteristics of the circuit, which results in changes in the die’s impedance. To sense such impedance variations, we deploy a well-known RF/microwave method called scattering parameter analysis, in which we inject sine wave signals with high frequencies into the system’s power distribution network (PDN) and measure the echo of the signals. We demonstrate that according to the content bits and physical location of a register, the reflected signal is modulated differently at various frequency points enabling the simultaneous and independent probing of individual registers.</p>
+      <p><em>Saleh Khalaj Monfared,Tahoura Mosavirik, Shahin Tajik</em></p>
+      <p><strong><a href="https://eprint.iacr.org/2023/693">ACM Conference on Computer and Communications Security 2023, (CCS 23)</a></strong></p>
       <p class="text-danger"><strong> </strong></p>
       <p> </p>
     </div>
@@ -99,11 +98,39 @@ Publications Page</a></p>
 
   <div class="col-sm-6 clearfix">
     <div class="well">
-      <pubtit>Architecture Support for Bitslicing</pubtit>
-      <p><img src="https://vernamlab.org/testproduction_39fgh4d6/images/bitslicing.png" class="img-responsive" width="33%" style="float: left" /></p>
-      <p>The bitsliced programming model has shown to boost the throughput of software programs. However, on a standard architecture, it exerts a high pressure on register access, causing memory spills and restraining the full potential of bitslicing. In this work, we present architecture support for bitslicing in a System-on-Chip. Our hardware extensions are of two types; internal to the processor core, in the form of custom instructions, and external to the processor, in the form of direct memory access module with support for data transposition. We present a comprehensive performance evaluation of the proposed enhancements in the context of several RISC-V ISA definitions (RV32I, RV64I, RV32B, RV64B). The proposed 14 new custom instructions use 1.5× fewer registers compared to the equivalent functionality expressed using RISC-V instructions. The integration of those custom instructions in a 5-stage pipelined RISC-V RV32I core incurs 10.21% and 12.72% overhead respectively in area and cell count using the SkyWater 130 nm standard cell library. The proposed bitslice transposition unit with DMA provides a further speedup, changing the quadratic increase in execution time of data transposition to linear. Finally, we demonstrate a comprehensive performance evaluation using a set of benchmarks of lightweight and masked ciphers.</p>
-      <p><em>Pantea Kiaei, Thomas Conroy, Patrick Schaumont</em></p>
-      <p><strong><a href="https://doi.org/10.1109/TETC.2022.3215480">IEEE Transactions on Emerging Topics in Computing (25 October 2022)</a></strong></p>
+      <pubtit>Jolt: Recovering TLS Signing Keys via Rowhammer Faults</pubtit>
+      <p><img src="https://vernamlab.org/testproduction_39fgh4d6/images/papers/jolt.png" class="img-responsive" width="100" style="float: left" /></p>
+      <p>Digital Signature Schemes such as DSA, ECDSA, and RSA are widely deployed to protect the integrity of security protocols such as TLS, SSH, and IPSec. In TLS, for instance, RSA and (EC)DSA are used to sign the state of the agreed upon protocol parameters during the handshake phase. Naturally, RSA and (EC)DSA implementations have become the target of numerous attacks, including powerful side-channel attacks. Hence, cryptographic libraries were patched repeatedly over the years.Here we introduce Jolt, a novel attack targeting signature scheme implementations. Our attack exploits faulty signatures gained by injecting faults during signature generation. By using the signature verification primitive, we correct faulty signatures and, in the process deduce bits of the secret signing key. Compared to recent attacks that exploit single bit biases in the nonce that require 245 signatures. We show that the proposed attack also works on Schnorr and RSA signatures with minor modifications. We demonstrate the viability of Jolt by running experimentson  libraries such as WolfSSL, OpenSSL, Microsoft SymCrypt, LibreSSL, and Amazon s2n.</p>
+      <p><em>Koksal Mus, Yarkın Doröz, M. Caner Tol, Kristi Rahman, Berk Sunar</em></p>
+      <p><strong><a href="https://ieeexplore.ieee.org/abstract/document/10179450">IEEE Symposium on Security and Privacy 2023, (S&amp;P 23)</a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+</div>
+
+<div class="row">
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit>Gate-Level Side-Channel Leakage Ranking with Architecture Correlation Analysis</pubtit>
+      <p><img src="https://vernamlab.org/testproduction_39fgh4d6/images/papers/gate.png" class="img-responsive" width="100" style="float: left" /></p>
+      <p>While side-channel leakage is traditionally evaluated from a fabricated chip, it is more time-efficient and cost-effective to do so during the design phase of the chip. We present a methodology to rank the gates of a design according to their contribution to the side-channel leakage of the chip. The methodology relies on logic synthesis, logic simulation, gate-level power estimation, and gateleakage assessment to compute a ranking. The ranking metric can be defined as a specific test by correlating gate-level activity with aleakage model, or else as a non-specific test by evaluating gate-level activity in response to distinct test vector groups. Our results show that only a minority of the gates in a design contribute most of the side-channel leakage. We demonstrate this property for several designs, including a hardware AES coprocessor and a cryptographic hardware/software interface in a five-stage pipelined RISC processor</p>
+      <p><em>Pantea Kiaei, Yuan Yao, Zhenyuan Liu, Nicole Fern, Cees-Bart Breunesse, Jasper Van Woudenberg, Kate Gillis, Alex Dich, Peter Grossmann, Patrick Schaumont</em></p>
+      <p><strong><a href="https://ieeexplore.ieee.org/abstract/document/10179450">IEEE Transactions on Emerging Topics in Computing 2023</a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit>Bake It Till You Make It: Heat-induced Leakage from Masked Neural Networks</pubtit>
+      <p><img src="https://vernamlab.org/testproduction_39fgh4d6/images/papers/bake.png" class="img-responsive" width="100" style="float: left" /></p>
+      <p>Masking has become one of the most effective approaches for securing hardware designs against side-channel attacks. Irrespective of the effort put into correctly implementing masking schemes on a field programmable gate array (FPGA), leakage can be unexpectedly observed. This is due to the fact that the assumption underlying all masked designs, i.e., the leakages of different shares are independent of each other, may no longer hold in practice. In this regard, extreme temperatures have been shown to be an important factor in inducing leakage, even in correctly-masked designs. This has previously been verified using an external heat generator (i.e., a climate chamber). In this paper, we examine whether the leakage can be induced using the circuit components themselves. Specifically, we target masked neural networks (NNs) in FPGAs, with one of the main building blocks being block random access memory (BRAM) and flip-flops (FFs).</p>
+      <p><em>Dev M Mehta, Mohammad Hashemi, David S Koblah, Domenic Forte, Fatemeh Ganji</em></p>
+      <p><strong><a href="https://eprint.iacr.org/2023/076">Cryptology ePrint Archive, 2023</a></strong></p>
       <p class="text-danger"><strong> </strong></p>
       <p> </p>
     </div>
@@ -117,18 +144,23 @@ Publications Page</a></p>
 
 
 
-  ImpedanceVerif: On-Chip Impedance Sensing for System-Level Tampering Detection <br />
-  <em>Tahoura Mosavirik, Patrick Schaumont, Shahin Tajik </em><br /><a href="https://tches.iacr.org/index.php/TCHES/article/view/9954">TCHES 2023 Issue 1</a>
+  LeakyOhm: Secret Bits Extraction using Impedance Analysis <br />
+  <em>Saleh Khalaj Monfared,Tahoura Mosavirik, Shahin Tajik </em><br /><a href="https://eprint.iacr.org/2023/693">ACM Conference on Computer and Communications Security 2023, (CCS 23)</a>
 
 
 
-  Architecture Support for Bitslicing <br />
-  <em>Pantea Kiaei, Thomas Conroy, Patrick Schaumont </em><br /><a href="https://doi.org/10.1109/TETC.2022.3215480">IEEE Transactions on Emerging Topics in Computing (25 October 2022)</a>
+  Jolt: Recovering TLS Signing Keys via Rowhammer Faults <br />
+  <em>Koksal Mus, Yarkın Doröz, M. Caner Tol, Kristi Rahman, Berk Sunar </em><br /><a href="https://ieeexplore.ieee.org/abstract/document/10179450">IEEE Symposium on Security and Privacy 2023, (S&P 23)</a>
 
 
 
-  SoC Root Canal! Root Cause Analysis of Power Side-Channel Leakage in System-on-Chip Designs <br />
-  <em>Pantea Kiaei, Patrick Schaumont </em><br /><a href="https://doi.org/10.46586/tches.v2022.i4.751-773">TCHES 2022 Issue 4</a>
+  Gate-Level Side-Channel Leakage Ranking with Architecture Correlation Analysis <br />
+  <em>Pantea Kiaei, Yuan Yao, Zhenyuan Liu, Nicole Fern, Cees-Bart Breunesse, Jasper Van Woudenberg, Kate Gillis, Alex Dich, Peter Grossmann, Patrick Schaumont </em><br /><a href="https://ieeexplore.ieee.org/abstract/document/10179450">IEEE Transactions on Emerging Topics in Computing 2023</a>
+
+
+
+  Bake It Till You Make It: Heat-induced Leakage from Masked Neural Networks <br />
+  <em>Dev M Mehta, Mohammad Hashemi, David S Koblah, Domenic Forte, Fatemeh Ganji </em><br /><a href="https://eprint.iacr.org/2023/076">Cryptology ePrint Archive, 2023</a>
 
  -->
 
