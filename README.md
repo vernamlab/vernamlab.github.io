@@ -1,41 +1,29 @@
-# Website
+## Maintaining the website on Github
+
+Subpages have "edit this page link"  at the bottom. I tried to make the formatting as easy as possible for editing
+- to add a Blogs or News entry, you just create a markdown file under the blogs or news folder.
+- To add a user, modify the facultyMembers, phdStudents or alumni arrays in docs/member.mdx
+- to edit the projects page, edit docs/projects.md file.
+- to edit the join us page, edit the docs/join-us.md file.
+
+Editing the landing page is tricky but minor edits are easy:
+- the quote under the slider is kept in /src/pages/index.js
+- the text for Grad/Undergrad Students are kept in /src/components/HomepageFeatures/index.js
+- Recent news holds the most recent 4 news automatically. no need to edit that.
+- sponsor thank you note is kept in /src/components/SponsorBanner.js
+- sponsor logos are under /static/img/logos, just add/remove an image  and it updates automatically.
+
+## Local development
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
 ### Installation
+`Bash
+$ npm install
+`
+This command installs all the necessary dependencies for your project.
 
-```
-$ yarn
-```
-
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+`Bash
+$ npm run start -- --poll
+`
+This command starts a local development server and typically opens up a browser window. Most changes are reflected live without having to restart the server.
