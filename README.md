@@ -2,7 +2,7 @@
 
 Subpages have "edit this page link"  at the bottom. I tried to make the formatting as easy as possible for editing
 - to add a Blogs or News entry, you just create a markdown file under the blogs or news folder.
-- To add a user, modify the facultyMembers, phdStudents or alumni arrays in `/docs/member.mdx`
+- To add a user, modify the `facultyMembers`, `phdStudents` or `alumni` arrays in `/docs/member.mdx`
 - to edit the projects page, edit `/docs/projects.md` 
 - to edit the join us page, edit `/docs/join-us.md`
 
