@@ -3,8 +3,8 @@
 Subpages have "edit this page link"  at the bottom. I tried to make the formatting as easy as possible for editing
 - to add a Blogs or News entry, you just create a markdown file under the blogs or news folder.
 - To add a user, modify the facultyMembers, phdStudents or alumni arrays in `/docs/member.mdx`
-- to edit the projects page, edit `/docs/projects.md` file.
-- to edit the join us page, edit the `/docs/join-us.md` file.
+- to edit the projects page, edit `/docs/projects.md` 
+- to edit the join us page, edit `/docs/join-us.md`
 
 Editing the landing page is tricky but minor edits are easy:
 - the quote under the slider is kept in `/src/pages/index.js`
