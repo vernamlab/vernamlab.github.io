@@ -18,12 +18,12 @@ Editing the landing page is tricky but minor edits are easy:
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
 ### Installation
-`Bash
+```Bash
 $ npm install
-`
+```
 This command installs all the necessary dependencies for your project.
 
-`Bash
+```Bash
 $ npm run start -- --poll
-`
+```
 This command starts a local development server and typically opens up a browser window. Most changes are reflected live without having to restart the server.
