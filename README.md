@@ -11,7 +11,7 @@ Editing the landing page is tricky but minor edits are easy:
 - the text for Grad/Undergrad Students are kept in `/src/components/HomepageFeatures/index.js`
 - Recent news holds the most recent 4 news automatically. no need to edit that.
 - sponsor thank you note is kept in `/src/components/SponsorBanner.js`
-- sponsor logos are under `/static/img/logos`, just add/remove an image  and it updates automatically.
+- sponsor logos are under `/static/img/logos`, just add/remove an image  and edit the `initialLogos` array in `/src/components/SponsorBanner.js`
 
 ## Local development
 
