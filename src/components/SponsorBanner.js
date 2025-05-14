@@ -12,7 +12,6 @@ const initialLogos = [
   { src: '/img/logos/logo_masstech.png', alt: 'MassTech Logo' },
   { src: '/img/logos/logo_epri.png', alt: 'EPRI Logo' },
   { src: '/img/logos/logo_src.png', alt: 'SRC Logo' },
-  { src: '/img/logos/ML_SEC.png', alt: 'ML_SEC Logo' },
   // Add other logos here as needed
 ];
 

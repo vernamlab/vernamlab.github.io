@@ -3,32 +3,137 @@
  * and scoped locally.
  */
 
+/* Original Hero Banner Styles (keep these and adapt) */
 .heroBanner {
-  padding: 9rem 0;
+  padding: 9rem 0; /* This defines the height of the hero section */
   text-align: center;
-  position: relative;
-  overflow: hidden;
-  background-color: transparent;
-}
-
-.heroContainer {
-  position: relative;
-  z-index: 1;
-}
-
-/* Target hero title and subtitle for text shadow */
-.heroBanner .hero__title {
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-}
-
-.heroBanner .hero__subtitle {
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+  position: relative; /* Crucial for positioning the absolute slider inside */
+  overflow: hidden; /* Clips the slider if it ever tries to exceed bounds */
+  background-color: #1b1b1d; /* Fallback background if images are slow or fail */
+                               /* This was the dark color in your original screenshot */
 }
 
 @media screen and (max-width: 996px) {
   .heroBanner {
-    padding: 4.5rem;
+    padding: 4.5rem 0; /* Adjust padding for smaller screens */
   }
+}
+
+/* Original Hero Container for Text (keep this) */
+.heroContainer {
+  position: relative; /* Stays in document flow but allows z-index */
+  z-index: 3;         /* Ensures text is ON TOP of the slider */
+  /* Docusaurus 'container' class (if used in JSX) will handle max-width and centering.
+     If not using 'container' class, you might need:
+     max-width: var(--ifm-container-width);
+     margin: 0 auto;
+     padding: 0 var(--ifm-spacing-horizontal);
+  */
+}
+
+/* Optional: Custom styling for hero text if not using theme defaults directly */
+.heroTitleText {
+  color: var(--ifm-hero-text-color, white); /* Ensure visibility against diverse images */
+  /* Add other Docusaurus hero__title styles if needed or define your own */
+}
+
+.heroSubtitleText {
+  color: var(--ifm-hero-text-color, white);
+}
+
+
+/* --- Slider Specific Styles --- */
+.heroSlider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;   /* Makes the slider fill the .heroBanner */
+  z-index: 1;     /* Places it below .heroContainer (text) but above .heroBanner's own background */
+}
+
+/* In your index.module.css */
+.heroSlider :global(.slick-list) {
+  height: 100%;
+  min-height: 100%; /* Just to be sure */
+  background-color: lime; /* For testing, then remove */
+}
+
+.heroSlider :global(.slick-track) {
+  height: 100%;
+  min-height: 100%; /* Just to be sure */
+
+}
+
+.heroSlider :global(.slick-slide) > div { /* Target the div wrapper you add in the .map() */
+  height: 100% !important; /* Make this take the full height of .slick-slide */
+  min-height: 100% !important;
+  display: block !important;
+  background-color: blue !important; /* Did you test this? */
+
+
+}
+
+/* In index.module.css */
+.slideItem { /* This is now the direct child of .slick-slide */
+  height: 100%; /* This should now work if .slick-slide has height */
+  min-height: 100%;
+  display: block !important; /* Override slick's inline-block if it causes issues, OR work with it */
+                             /* Usually slick sets this itself, ensure it's not fighting */
+  background-size: cover;
+  background-position: center center;
+  /* Add debug colors */
+  background-color: green !important;
+  outline: 3px dotted orange !important;
+}
+
+/* Optional: Global dark overlay on slides for better text readability if text is part of .heroContainer */
+.slideItem::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3); /* Adjust darkness as needed */
+  z-index: 0; /* Below any direct content of .slideItem, but above its background-image */
+}
+
+
+/* Styling for dots and arrows (react-slick defaults can be basic) */
+.heroSlider .slick-dots {
+  bottom: 20px; /* Adjust vertical position */
+}
+
+.heroSlider .slick-dots li button:before {
+  font-size: 12px; /* Size of dots */
+  color: white;    /* Color of dots */
+  opacity: 0.6;
+}
+
+.heroSlider .slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: white; /* Color of active dot */
+}
+
+.heroSlider .slick-prev,
+.heroSlider .slick-next {
+  z-index: 3; /* Above .heroContainer text to ensure they are clickable */
+  width: 40px;
+  height: 40px;
+}
+.heroSlider .slick-prev { left: 25px; }
+.heroSlider .slick-next { right: 25px; }
+
+.heroSlider .slick-prev:before,
+.heroSlider .slick-next:before {
+  font-size: 30px; /* Size of arrow icons */
+  color: white;    /* Color of arrows */
+  opacity: 0.7;
+}
+.heroSlider .slick-prev:hover:before,
+.heroSlider .slick-next:hover:before {
+  opacity: 1;
 }
 
 .buttons {

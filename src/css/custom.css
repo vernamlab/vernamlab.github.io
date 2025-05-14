@@ -51,13 +51,16 @@
   max-width: 150px; /* Adjust as needed, helps with logos of different aspect ratios */
   object-fit: contain; /* Ensures the entire logo is visible without cropping, maintaining aspect ratio */
 }
-
 .publication-entry {
   border: 1px solid #ddd;
   padding: 15px;
   border-radius: 8px;
   background-color: #f9f9f9;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  /* Consider adding overflow-x: auto; here as a last resort if child fixes aren't enough,
+     but it's better to fix the specific overflowing children.
+     overflow-x: auto;
+  */
 }
 
 [data-theme='dark'] .publication-entry {
@@ -69,7 +72,8 @@
   margin-top: 0;
 }
 
-.publication-entry img {
+/* This rule is likely for a specific thumbnail image. Keep it if it serves that purpose. */
+.publication-entry > img { /* Added '>' for direct child, assuming thumbnail is direct child */
   float: left;
   margin-right: 15px;
   margin-bottom: 5px;
@@ -86,6 +90,9 @@
   text-decoration: underline;
 }
 
+/* If your <pub.Component /> is consistently wrapped by .publication-entry-content,
+   you could scope the new rules below to be inside .publication-entry-content
+   instead of .publication-entry for better targeting. */
 .publication-entry-content {
   flex-grow: 1; /* Allow content to take available space */
 }
@@ -103,16 +110,67 @@
 
 .publications-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Responsive columns */
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
   gap: 20px;
   padding: 20px;
   margin: 0 auto; /* Center the container */
   max-width: 1200px; /* Optional: set a max-width for very large screens */
 }
 
-.hidden-sidebar-category {
-  display: none !important;
+/* --- NEW ADDITIONS TO HANDLE OVERFLOWING CONTENT WITHIN .publication-entry --- */
+
+/* For general text content like paragraphs within the publication body */
+.publication-entry p,
+.publication-entry div:not(.publication-entry) { /* Target divs that are not .publication-entry itself, if text is in divs */
+  overflow-wrap: break-word; /* Standard property */
+  word-wrap: break-word;     /* Older fallback */
+  /* word-break: break-all; */ /* Use if break-word is not enough, but can be aggressive */
 }
+
+/* For images within the main content of the publication (rendered by pub.Component) */
+/* This is more general than the .publication-entry > img rule for thumbnails */
+.publication-entry img { /* This will apply to ALL images inside .publication-entry */
+  max-width: 100%;    /* Ensures images scale down to fit their container */
+  height: auto;       /* Maintains aspect ratio */
+  display: block;     /* Can help prevent extra space below images */
+}
+/* If the above .publication-entry img rule conflicts with your floated thumbnail,
+   you might need a more specific selector for content images, e.g.,
+   .publication-entry .some-wrapper-class-for-pub-component img { ... }
+   or ensure your thumbnail rule is more specific like .publication-entry > img.
+   I've changed the original .publication-entry img to .publication-entry > img
+   assuming the thumbnail is a direct child.
+*/
+
+
+/* For preformatted text (code blocks) */
+.publication-entry pre {
+  white-space: pre-wrap;  /* Allows lines of code to wrap */
+  word-break: break-word; /* Or break-all if lines are still too long */
+  /* Alternatively, for a horizontal scrollbar on code blocks: */
+  /* overflow-x: auto; */
+  /* max-width: 100%; */ /* Ensures pre block itself doesn't overflow if not scrolling */
+}
+
+/* For tables - wrap tables in a div with this class in your Markdown/MDX if possible */
+.publication-entry .table-responsive-wrapper {
+  overflow-x: auto;
+  width: 100%;
+  margin-bottom: 1rem; /* Optional: for spacing */
+}
+/* If you can't wrap tables, you might try to style tables directly,
+   but it's less robust for responsiveness: */
+.publication-entry table {
+  width: 100%; /* Tries to make table fit, but might look squashed */
+  /* Consider using display: block; and overflow-x: auto; on the table itself,
+     but this can have side effects on table layout.
+     display: block;
+     max-width: 100%;
+     overflow-x: auto;
+  */
+}
+
+/* --- END OF NEW ADDITIONS --- */
 
 /* Member card styles */
 .member-entry {
@@ -215,9 +273,6 @@
   .docs-wrapper div[class*='docPage_'] main[class*='docMainContainer_'] > div.container,
   .docs-wrapper div[class*='docPage'] main[class*='docMainContainer'] > div.container
   {
-    /* max-width: 100%; */ /* .container class usually handles this on mobile */
-    /* padding-left: 15px; */
-    /* padding-right: 15px; */
   }
 }
 
@@ -254,4 +309,115 @@
 .projects-table table td:nth-child(2),
 .projects-table table th:nth-child(2) {
   white-space: nowrap;
+}
+
+
+
+/* Wrapper for the entire hero section (slider + text banner) */
+.hero-slider-wrapper {
+    position: relative; /* Establishes a positioning context for the absolute banner */
+    /* The height of this wrapper will be determined by the carousel's height.
+       Ensure your carousel items (.carousel-item-padding-40-px) still define this height. */
+    /* Example: background-color: #111; /* Fallback if needed */
+}
+
+/* Your existing carousel item styling that sets the height of slides */
+.carousel-item-padding-40-px { /* Or whatever your itemClass is */
+    height: 400px; /* Or your desired standard slide height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden; /* Good to ensure content fits if needed */
+}
+
+.standard-image-in-carousel {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Or 'contain' */
+    display: block;
+}
+/* In your HeroSliderWithBanner.css or src/css/custom.css */
+
+.hero-text-banner {
+    position: absolute;
+    top: 0;  /* Stretch from the top */
+    left: 0; /* Stretch from the left */
+    width: 100%; /* Take full width of the .hero-slider-wrapper */
+    height: 100%; /* Take full height of the .hero-slider-wrapper */
+    z-index: 10; /* Ensures it's on top of the carousel images but below arrows/dots if they need higher z-index */
+    color: white;
+    display: flex; /* Use flexbox to center the text content within this full-area banner */
+    flex-direction: column; /* Stack title and subtitle vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    text-align: center; /* Ensure text itself is centered if it wraps */
+    background-color: rgba(0, 0, 0, 0.4); /* Adjust opacity as desired (0.0 to 1.0) */
+    /* No padding here if you want the background to be edge-to-edge.
+       Padding can be added to an inner container for the text if needed,
+       or directly to .hero-title and .hero-subtitle. */
+    /* No border-radius if it's full screen */
+    user-select: none;
+}
+
+/* Keep your .hero-title and .hero-subtitle styles as they were,
+   they will now be centered within the full-slide .hero-text-banner */
+.hero-text-banner .hero-title {
+    font-size: 3.5rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Optional */
+}
+
+.hero-text-banner .hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+
+/* Responsive adjustments for title/subtitle font size remain the same */
+@media screen and (max-width: 768px) {
+    .hero-text-banner .hero-title {
+        font-size: 2.5rem;
+    }
+    .hero-text-banner .hero-subtitle {
+        font-size: 1.2rem;
+    }
+    /* The .hero-text-banner itself is already full width/height,
+       so width adjustments here are not needed unless you want to add
+       padding that reduces the text area within the full banner. */
+}
+
+@media screen and (max-width: 480px) {
+    .hero-text-banner .hero-title {
+        font-size: 2rem;
+    }
+    .hero-text-banner .hero-subtitle {
+        font-size: 1rem;
+    }
+}
+
+/* Ensure your .hero-slider-wrapper still correctly defines the overall area and height */
+.hero-slider-wrapper {
+    position: relative;
+    /* Height is determined by the carousel item height, e.g., 400px */
+}
+
+.carousel-item-padding-40-px { /* This class on the <li> carousel items defines the slide height */
+    height: 400px; /* Or your chosen standard slide height */
+    /* ... other styles ... */
+}
+
+/* You might need to ensure carousel arrows/dots are above this full-banner overlay */
+/* If using react-multi-carousel default arrows/dots, they usually have their own z-index.
+   If they get hidden, you might need to target them and increase their z-index.
+   Example for default react-multi-carousel arrows: */
+.react-multiple-carousel__arrow {
+    z-index: 11 !important; /* Make sure arrows are on top */
+}
+.custom-dot-list-style { /* Or .react-multi-carousel-dot-list */
+    z-index: 11 !important; /* Make sure dots are on top */
+    /* Adjust bottom position if needed, as the banner now covers full height */
+    bottom: 10px; /* Example, default is usually 15px or 30px */
 }
