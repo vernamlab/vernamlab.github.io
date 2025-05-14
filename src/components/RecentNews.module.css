@@ -1,0 +1,40 @@
+.recentNewsContainer {
+  margin: 2rem auto; /* Centered with top/bottom margin */
+  padding: 1.5rem;
+  /* width: 100%; --- Removed, container div handles width */
+  border: 1px solid #e0e0e0; /* Light border for the box */
+  border-radius: 8px; /* Optional: rounded corners */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* Subtle shadow for depth */
+}
+
+.newsItem {
+  border-bottom: 1px solid #eee;
+  padding: 0.2rem 0; /* Reduced top/bottom padding */
+  margin-bottom: 0.1rem; /* Reduced margin-bottom */
+}
+
+.newsItem:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.newsItem h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.newsDate {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.recentNewsContainer h2 a {
+  color: inherit; /* Inherit color from h2, which is usually black by default */
+  text-decoration: none; /* Remove underline */
+}
+
+.recentNewsContainer h2 a:hover {
+  text-decoration: underline; /* Optional: add underline on hover */
+} 

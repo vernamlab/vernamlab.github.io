@@ -1,0 +1,73 @@
+.sponsorBannerContainer {
+  padding: 2rem 0;
+  text-align: center;
+  background-color: #f9f9f9; /* Light grey background for the section */
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.sponsorTitle {
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  color: var(--ifm-color-primary-darkest);
+}
+
+/* New container to hide the overflow of the animated grid */
+.logoScrollContainer {
+  overflow: hidden;
+  width: 100%; /* Take full width of parent */
+  /* Optional: add a mask for fading edges if desired */
+  /* -webkit-mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent); */
+  /* mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent); */
+}
+
+/* This is the element that will be animated */
+.logoGridAnimation {
+  display: flex;
+  /* Calculate width based on number of items and their assumed/avg width + gap, then double it for two sets */
+  /* For simplicity, we can use a very large width or dynamically set it, 
+     but for pure CSS animation, it works best if content naturally extends beyond container */
+  /* width: 200%; */ /* This needs to be much larger, e.g., sum of all duplicated logo items */
+  /* Let flexbox determine the width based on its content (the duplicated logos) */
+  width: fit-content; /* Allows the flex items to determine the width */
+  animation-name: scrollLogos;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  /* animation-duration is set by JS inline style */
+}
+
+/* Define the scrolling animation */
+@keyframes scrollLogos {
+  0% {
+    transform: translateX(0%);
+  }
+  /* It moves left by half of its total width (since content is duplicated) */
+  100% {
+    transform: translateX(-50%); 
+  }
+}
+
+.logoItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem; 
+  height: 80px;
+  flex-shrink: 0; /* Crucial: prevent items from shrinking */
+  margin-right: 2.5rem; /* Replaces gap for continuous scroll */
+  /* box-sizing: content-box; */ /* Ensure padding doesn't shrink items with fixed width/height */
+}
+
+.logoImage {
+  max-height: 65px;
+  max-width: 160px;
+  object-fit: contain;
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: filter 0.3s ease, opacity 0.3s ease;
+}
+
+.logoImage:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+} 

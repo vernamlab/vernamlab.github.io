@@ -1,0 +1,69 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 9rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.heroContainer {
+  position: relative;
+  z-index: 1;
+}
+
+/* Target hero title and subtitle for text shadow */
+.heroBanner .hero__title {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.heroBanner .hero__subtitle {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 4.5rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.labDescriptionSection {
+  /* padding: 3rem 0; */ /* Keep vertical padding */
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  /* text-align: center; */ /* Will be left aligned now */
+  /* font-size: 1.1rem; */ /* Will use blockquote variable */
+  /* line-height: 1.8; */ /* Can remain or be adjusted by p */
+
+  /* Blockquote specific styles */
+  max-width: 800px; /* Max width of the blockquote itself */
+  margin-left: auto; /* Center the blockquote */
+  margin-right: auto; /* Center the blockquote */
+  padding-left: var(--ifm-blockquote-padding-horizontal, 2rem); /* Indentation */
+  border-left: 3px solid var(--ifm-blockquote-border-color, var(--ifm-color-emphasis-300)); /* Softer and thinner border */
+  background-color: transparent; /* Removed background color */
+  border-radius: var(--ifm-global-radius); /* Consistent border radius */
+}
+
+.labDescriptionSection p {
+  /* max-width: 800px; */ /* Removed, parent handles width */
+  /* margin: 0 auto; */   /* Removed, parent handles centering */
+  /* color: var(--ifm-color-content-secondary); */ /* Will use blockquote variable */
+  
+  color: var(--ifm-blockquote-color, var(--ifm-color-content-secondary));
+  font-size: var(--ifm-blockquote-font-size, 1.05rem); /* Use theme var or fallback */
+  font-style: italic;
+  line-height: 1.8;
+  text-align: left; /* Ensure text is left-aligned within the block */
+  margin-bottom: 0; /* Remove default paragraph bottom margin if any */
+}

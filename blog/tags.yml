@@ -1,0 +1,24 @@
+publication:
+  label: Publication
+  description: Blog posts related to new publications from the lab.
+  permalink: /tags/publication
+conference:
+  label: Conference
+  description: Posts about conference presentations, attendance, or related news.
+  permalink: /tags/conference
+attack:
+  label: Attack
+  description: Discussions or announcements related to security attacks or vulnerabilities.
+  permalink: /tags/attack
+lab news:
+  label: Lab News
+  description: General news and updates from the Vernam Lab.
+  permalink: /tags/lab-news
+website:
+  label: Website
+  description: Updates and announcements about the lab website.
+  permalink: /tags/website
+research:
+  label: Research
+  description: Posts detailing research activities, findings, or ongoing projects.
+  permalink: /tags/research

@@ -1,0 +1,76 @@
+---
+sidebar_label: 'Members'
+title: 'Our Team'
+---
+
+import MembersList from '@site/src/components/MembersList';
+
+export const facultyMembers = [
+  { name: "Fatemeh Ganji", title: "Assistant Professor", imageUrl: "/img/people/fatemehganji.png", email: "fganji@wpi.edu" },
+  { name: "Ghaith Hammouri", title: "Affiliate Research Scientist", imageUrl: "/img/people/ghaithhammouri.png", email: "hammouri@wpi.edu" },
+  { name: "Koksal Mus", title: "Assistant Teaching Professor", imageUrl: "/img/people/koksalmus.png", email: "kmus@wpi.edu" },
+  { name: "Patrick Schaumont", title: "Professor", imageUrl: "/img/people/patrickschaumont.png", email: "pschaumont@wpi.edu" },
+  { name: "Berk Sunar", title: "Professor", imageUrl: "/img/people/berksunar.png", email: "sunar@wpi.edu" },
+  { name: "Shahin Tajik", title: "Assistant Professor", imageUrl: "/img/people/shahintajik.png", email: "stajik@wpi.edu" },
+];
+
+export const phdStudents = [
+  { name: "Zhenyuan Liu", title: "PhD Student", imageUrl: "/img/people/zhenyuanliu.png", email: "zliu12@wpi.edu" },
+  { name: "Dillibabu Shanmugam", title: "PhD Student", imageUrl: "/img/people/dillibabu.jpg", email: "dshanmugam@wpi.edu" },
+  { name: "Andrew J. Adiletta", title: "PhD Student", imageUrl: "/img/people/andrew.jpg", email: "ajadiletta@wpi.edu" },
+  { name: "Kemal Derya", title: "PhD Student", imageUrl: "/img/people/kemal.jpeg", email: "kderya@wpi.edu" },
+  { name: "Dev Mehta", title: "PhD Student", imageUrl: "/img/people/dev.jpg", email: "dmmehta2@wpi.edu" },
+  { name: "Saleh K. Monfared", title: "PhD Student", imageUrl: "/img/people/saleh.jpeg", email: "skmonfared@wpi.edu" },
+  { name: "Maryam Saadat Safa", title: "PhD Student", imageUrl: "/img/people/maryam.jpg", email: "msafa@wpi.edu" },
+  { name: "Zane Weissman", title: "PhD Student", imageUrl: "/img/people/zane.png", email: "zweissman@wpi.edu" },
+];
+
+export const alumni = [
+  { name: "Tahoura Mosavirik", title: "PhD Student", imageUrl: "/img/people/tahoura.jpg", email: "tmosavirik@wpi.edu" },
+  { name: "Mohammad Hashemi", title: "PhD Student", imageUrl: "/img/people/mhashemi.jpg", email: "mhashemi@wpi.edu" },
+  { name: "M. Caner Tol", title: "PhD Student", imageUrl: "/img/people/caner.jpeg", email: "mtol@wpi.edu" },
+  { name: "Kristi Rahman", title: "MS Student", imageUrl: "/img/people/kristi.JPG", email: "krahman@wpi.edu" },
+  { name: "Pantea Kiaei", title: "PhD student", imageUrl: "/img/people/panteakiaei.png" },
+  { name: "Yuan Yao", title: "Visiting PhD student", imageUrl: "/img/people/yuanyao.png" },
+  { name: "Richa Singh", title: "MS student", imageUrl: "/img/people/richasingh.png" },
+  { name: "Saad Islam", title: "PhD Student", imageUrl: "/img/people/saad.jpg" },
+  { name: "Archanaa Santhana Krishnan", title: "PhD Student", imageUrl: "/img/people/archanaa.jpeg" },
+  { name: "Berk Gulmezoglu", title: "PhD Student", imageUrl: "/img/people/berk1.jpg" },
+  { name: "Daniel Moghimi", title: "PhD Student", imageUrl: "/img/people/daniel.jpg" },
+  { name: "Mehmet Sinan Inci", title: "PhD Student", imageUrl: "/img/people/mehmet.jpeg", email: "msinci@wpi.edu" },
+  { name: "Yarkın Doröz", title: "PhD Student", imageUrl: "/img/people/yarkindoroz.png", email: "ydoroz@wpi.edu" },
+  { name: "Gizem Selcan Çetin", title: "PhD Student", email: "gscetin@wpi.edu" },
+  { name: "Michael Moukarzel", title: "PhD Student", email: "mamoukar@wpi.edu" },
+  { name: "Wei Dai", title: "PhD Student", email: "wdai@wpi.edu" },
+  { name: "Cong Chen", title: "PhD Student" },
+  { name: "Gorka Irazoqui Apecechea", title: "PhD Student" },
+  { name: "Abraham Fernandez Rubio", title: "MS Student" },
+  { name: "Marc Green", title: "MS Student" },
+  { name: "Xin Ye", title: "PhD Student" },
+  { name: "Chenguang Yang", title: "PhD Student" },
+  { name: "Deniz Karakoyunlu", title: "PhD Student" },
+  { name: "Yin Hu", title: "PhD Student" },
+  { name: "Kahraman Akdemir", title: "PhD Student" },
+  { name: "Erdinc Ozturk", title: "PhD Student" },
+  { name: "Ghaith Hammouri", title: "PhD Student" },
+  { name: "Selcuk Baktir", title: "PhD Student" },
+  { name: "Kaan Yuksel", title: "MS Student" },
+  { name: "Gunnar Gaubatz", title: "PhD Student" },
+  { name: "Jens-Peter Kaps", title: "PhD Student" },
+  { name: "Colleen Marie O'Rourke", title: "MS Student" },
+]; 
+
+## Faculty
+
+<MembersList 
+  members={facultyMembers}
+/>
+
+## Students
+<MembersList 
+  members={phdStudents}
+/>
+
+## Alumni
+<MembersList members={alumni}
+/>

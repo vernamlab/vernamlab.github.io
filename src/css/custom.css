@@ -1,0 +1,257 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #AC2B37; /* WPI Red */
+  --ifm-color-primary-dark: #982630;
+  --ifm-color-primary-darker: #8f242d;
+  --ifm-color-primary-darkest: #751e25;
+  --ifm-color-primary-light: #c0303e;
+  --ifm-color-primary-lighter: #c93342;
+  --ifm-color-primary-lightest: #db3a49;
+  --ifm-navbar-background-color: #AC2B37;
+  --ifm-navbar-link-color: white;
+  --ifm-navbar-link-hover-color: #e0e0e0; /* Lighter shade for hover */
+  --ifm-navbar-link-active-color: #f0f0f0; /* Even lighter for active/current page */
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #D44D55; /* Lighter WPI Red for dark mode */
+  --ifm-color-primary-dark: #c7424a;
+  --ifm-color-primary-darker: #bf3c43;
+  --ifm-color-primary-darkest: #a13238;
+  --ifm-color-primary-light: #e15860;
+  --ifm-color-primary-lighter: #ea6068;
+  --ifm-color-primary-lightest: #f8747c;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-navbar-background-color: #AC2B37; /* Keep navbar color consistent in dark mode or choose a dark variant */
+  --ifm-navbar-link-color: white;
+  --ifm-navbar-link-hover-color: #e0e0e0;
+  --ifm-navbar-link-active-color: #f0f0f0;
+}
+
+.sponsor-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center logos horizontally */
+  align-items: center; /* Center logos vertically */
+  gap: 20px; /* Space between logos */
+  margin-bottom: 20px;
+}
+
+.sponsor-logos img {
+  max-height: 80px; /* Adjust as needed */
+  max-width: 150px; /* Adjust as needed, helps with logos of different aspect ratios */
+  object-fit: contain; /* Ensures the entire logo is visible without cropping, maintaining aspect ratio */
+}
+
+.publication-entry {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+[data-theme='dark'] .publication-entry {
+  background-color: #2c2c2c; /* Darker background for dark mode */
+  border-color: #444;
+}
+
+.publication-entry h3 {
+  margin-top: 0;
+}
+
+.publication-entry img {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 5px;
+  max-width: 100px; /* Adjust as needed */
+  border-radius: 4px;
+}
+
+.publication-entry h3 a {
+  text-decoration: none;
+  color: var(--ifm-color-primary);
+}
+
+.publication-entry h3 a:hover {
+  text-decoration: underline;
+}
+
+.publication-entry-content {
+  flex-grow: 1; /* Allow content to take available space */
+}
+
+.publication-entry-content p:last-child {
+  margin-bottom: 0;
+}
+
+/* Clearfix for floated images if any remain outside flex */
+.publication-entry::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.publications-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Responsive columns */
+  gap: 20px;
+  padding: 20px;
+  margin: 0 auto; /* Center the container */
+  max-width: 1200px; /* Optional: set a max-width for very large screens */
+}
+
+.hidden-sidebar-category {
+  display: none !important;
+}
+
+/* Member card styles */
+.member-entry {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Align items to the start of the flex container */
+  min-height: 250px; /* Or a specific height if all images are same aspect ratio */
+}
+
+[data-theme='dark'] .member-entry {
+  background-color: #242526; /* Docusaurus dark background */
+  border-color: #303030;
+}
+
+.member-entry img {
+  width: 120px; /* Fixed width */
+  height: 120px; /* Fixed height */
+  border-radius: 50%; /* Circular images */
+  object-fit: cover; /* Crop to fit, maintains aspect ratio */
+  margin-bottom: 15px;
+  border: 2px solid #AC2B37; /* Optional: border in theme color */
+}
+
+.member-entry-details strong {
+  display: block;
+  font-size: 1.1em;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+[data-theme='dark'] .member-entry-details strong {
+  color: #eee;
+}
+
+.member-entry-details em {
+  font-size: 0.9em;
+  color: #555;
+  display: block;
+}
+
+[data-theme='dark'] .member-entry-details em {
+  color: #bbb;
+}
+
+/* Custom styles for navbar SVG logo */
+.navbar__brand .navbar__logo svg path[fill="#AE132A"] {
+  fill: #ffffff !important; /* Change the problematic red to white */
+}
+
+/* If other parts of the SVG are hard to see, you can add more rules:
+.navbar__brand .navbar__logo svg path[fill="#A1ABB2"] {
+  fill: #f0f0f0 !important; /* Example: Lighten the grey 
+}
+.navbar__brand .navbar__logo svg path[fill="#fff"] {
+ // White parts should be fine, but can be targeted if needed 
+}
+*/
+
+/* Footer Content Centering */
+.footer__links {
+  text-align: center;
+}
+
+.footer__col {
+  /* If columns themselves need to be centered relative to each other, 
+     this would require flexbox on the parent .footer__links. 
+     For now, just centering text within columns. */
+}
+
+.footer__item {
+  /* Individual link items, text-align should be inherited from .footer__col or .footer__links */
+}
+
+.footer__copyright {
+  text-align: center;
+}
+
+/* New approach: Target the main content container within docs pages */
+/* This targets the container div that Docusaurus typically uses for page content 
+   when the sidebar is disabled or not present for a particular page. 
+   The class names often have generated hashes, so we use *= to match parts of them. */
+.docs-wrapper div[class*='docPage_'] main[class*='docMainContainer_'] > div.container,
+.docs-wrapper div[class*='docPage'] main[class*='docMainContainer'] > div.container /* For non-hashed versions if any */
+{
+  max-width: 960px; /* Adjust as needed for your preferred content width */
+  margin-left: auto;
+  margin-right: auto;
+  /* padding-left and padding-right are often handled by the .container class already */
+}
+
+/* Adjust padding for smaller screens if needed, though .container usually handles it */
+@media screen and (max-width: 996px) {
+  .docs-wrapper div[class*='docPage_'] main[class*='docMainContainer_'] > div.container,
+  .docs-wrapper div[class*='docPage'] main[class*='docMainContainer'] > div.container
+  {
+    /* max-width: 100%; */ /* .container class usually handles this on mobile */
+    /* padding-left: 15px; */
+    /* padding-right: 15px; */
+  }
+}
+
+/* Mobile Navbar Color Fixes */
+.navbar-sidebar { /* Common class for the mobile menu panel */
+  background-color: var(--ifm-navbar-background-color) !important;
+}
+
+.navbar-sidebar .menu__link {
+  color: var(--ifm-navbar-link-color) !important;
+}
+
+.navbar-sidebar .menu__link:hover {
+  color: var(--ifm-navbar-link-hover-color) !important;
+  /* Optional: subtle hover background, ensure it doesn't clash with text */
+  background-color: rgba(0, 0, 0, 0.1) !important; 
+}
+
+.navbar-sidebar .menu__link--active {
+  color: var(--ifm-navbar-link-active-color) !important;
+  /* Optional: slightly more prominent active background */
+  background-color: rgba(0, 0, 0, 0.2) !important; 
+}
+
+/* Close button of the mobile menu */
+.navbar-sidebar__close {
+  color: var(--ifm-navbar-link-color) !important; /* Make close button icon (if font-based) white */
+}
+
+.navbar-sidebar__close svg {
+  fill: var(--ifm-navbar-link-color) !important; /* Make close button icon (if SVG) white */
+}
+
+.projects-table table td:nth-child(2),
+.projects-table table th:nth-child(2) {
+  white-space: nowrap;
+}

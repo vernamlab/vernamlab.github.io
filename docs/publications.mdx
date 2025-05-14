@@ -1,0 +1,83 @@
+---
+sidebar_label: 'Publications'
+editUrl: 'https://github.com/vernamlab/vernamlab.github.io/tree/dev/docs/publications'
+---
+import BibBaseEmbed from '@site/src/components/BibBaseEmbed';
+
+{/* Start of JavaScript block to dynamically load publications */}
+{(() => {
+  const req = require.context('./publications', false, /\.md$/);
+  global.publicationItems = req.keys().map(key => {
+    const mod = req(key);
+    // Ensure the module and its expected exports are loaded correctly
+    if (!mod || typeof mod.default !== 'function' || typeof mod.frontMatter !== 'object') {
+      console.warn(`[Publications Page] Skipping ${key}: Module or frontMatter not loaded correctly.`);
+      return null;
+    }
+    return {
+      Component: mod.default, // The React component for the MDX content
+      frontMatter: mod.frontMatter,
+      id: key // Unique key for React list, e.g., './goblin-acns24.md'
+    };
+  }).filter(Boolean); // Remove any null entries from files that couldn't be loaded
+
+  // Sort publications by year (descending), then by title (ascending) as a secondary sort.
+  global.publicationItems.sort((a, b) => {
+    const yearA = a.frontMatter.year || 0;
+    const yearB = b.frontMatter.year || 0;
+    if (yearB !== yearA) {
+      return yearB - yearA; // Sort by year descending
+    }
+    // If years are the same, sort by title alphabetically (optional)
+    const titleA = a.frontMatter.title || '';
+    const titleB = b.frontMatter.title || '';
+    return titleA.localeCompare(titleB);
+  });
+
+  return null; // This IIFE should not render anything itself
+})()}
+{/* End of JavaScript block */}
+
+# Publications
+
+## Featured Publications
+
+<div className="publications-container">
+  {global.publicationItems && global.publicationItems.length > 0 ? (
+    global.publicationItems.map(pub => (
+      <div className="publication-entry" key={pub.id}>
+        {pub.frontMatter.title && pub.frontMatter.paper_url ? (
+          <h3><a href={pub.frontMatter.paper_url} target="_blank" rel="noopener noreferrer">{pub.frontMatter.title}</a></h3>
+        ) : pub.frontMatter.title ? (
+          <h3>{pub.frontMatter.title}</h3>
+        ) : (
+          <h3>Untitled Publication</h3>
+        )}
+        <pub.Component />
+      </div>
+    ))
+  ) : (
+    <p>No featured publications found in the <code>docs/publications/</code> directory.</p>
+  )}
+</div> 
+
+
+## All Publications
+
+This page provides a comprehensive list of publications from Vernam Lab.
+
+### Publications by Fatemeh Ganji
+
+<BibBaseEmbed bibUrl="https://dblp.org/pid/137/6331.bib" />
+
+### Publications by Patrick Schaumont
+
+<BibBaseEmbed bibUrl="https://dblp.org/pid/39/1269.bib" />
+
+### Publications by Berk Sunar
+
+<BibBaseEmbed bibUrl="https://dblp.org/pid/91/465.bib" />
+
+### Publications by Shahin Tajik
+
+<BibBaseEmbed bibUrl="https://dblp.org/pid/139/7378.bib" /> 
