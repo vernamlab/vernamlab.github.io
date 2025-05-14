@@ -24,7 +24,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'vernamlab', // Usually your GitHub org/user name.
   projectName: 'vernamlab.github.io', // Usually your repo name.
-
+  deploymentBranch: 'dev',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
