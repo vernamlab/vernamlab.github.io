@@ -1,5 +1,7 @@
 # Join Our Team
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lsBasLuh3Ac?si=oqEh4i7tir4xpwAR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Multiple fully funded Ph.D. positions are available.
 Contact us at [vernam.labs@gmail.com](mailto:vernam.labs@gmail.com).
 
@@ -27,3 +29,4 @@ A competitive salary and an international cutting-edge research program in an at
 
 
 Interested students should contact us by sending an email with a CV to [vernam.labs@gmail.com](mailto:vernam.labs@gmail.com). 
+
