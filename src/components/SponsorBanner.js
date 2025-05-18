@@ -17,7 +17,7 @@ const initialLogos = [
 
 export default function SponsorBanner() {
   // Duplicate logos for seamless animation
-  const duplicatedLogos = [...initialLogos, ...initialLogos];
+  const duplicatedLogos = [...initialLogos,...initialLogos, ...initialLogos];
   const logoGridRef = useRef(null);
   const [animationDuration, setAnimationDuration] = useState('40s'); // Default duration
 
