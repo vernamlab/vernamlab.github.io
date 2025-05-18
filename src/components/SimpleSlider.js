@@ -52,6 +52,7 @@ function SimpleSlider(props) {
                 <img src="/img/slide/pres.JPG" alt="Slide 9" className="standard-image-in-carousel"/>
                 <img src="/img/slide/sca.png" alt="Slide 10" className="standard-image-in-carousel"/>
                 <img src="/img/slide/debug.png" alt="Slide 11" className="standard-image-in-carousel"/>
+                
             </Carousel>
                 {/* The Text Banner Overlay */}
             <div className="hero-text-banner">
