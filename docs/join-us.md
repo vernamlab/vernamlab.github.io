@@ -5,7 +5,7 @@
 Multiple fully funded Ph.D. positions are available.
 Contact us at [vernam.labs@gmail.com](mailto:vernam.labs@gmail.com).
 
-Thanks to the rolling admission, prospective Ph.D. students can join us in August 2024 at the earliest. The hiring process runs until suitable candidates have been selected. The students are expected to work on a wide variety of topics that are mainly related to hardware security, including: 
+The hiring process runs until suitable candidates have been selected. The students are expected to work on a wide variety of topics that are mainly related to hardware security, including: 
 - (1) side-channel analysis and fault analysis, 
 - (2) application of artificial intelligence in hardware security, 
 - (3) security of deep learning hardware accelerators, 
