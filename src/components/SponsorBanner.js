@@ -28,7 +28,7 @@ export default function SponsorBanner() {
       const numUniqueLogos = initialLogos.length;
       // Example: Make it scroll faster if there are fewer logos, slower if more.
       // This is a very rough estimation, you might need to fine-tune.
-      const estimatedDuration = numUniqueLogos * 3 * 1.7; // seconds per unique logo, now 50% slower
+      const estimatedDuration = numUniqueLogos * 3 * 3; // seconds per unique logo, now 50% slower
       setAnimationDuration(`${Math.max(20, estimatedDuration)}s`); // Ensure a minimum duration
     }
   }, [initialLogos.length]);
