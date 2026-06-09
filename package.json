@@ -45,6 +45,20 @@
     "node": ">=18.0"
   },
   "overrides": {
-    "webpack-dev-server": "5.2.1"
+    "webpack-dev-server": "5.2.1",
+    "brace-expansion": "2.0.2",
+    "on-headers": "1.1.0",
+    "@docusaurus/utils": {
+      "js-yaml": "4.1.1"
+    },
+    "@docusaurus/utils-validation": {
+      "js-yaml": "4.1.1"
+    },
+    "@docusaurus/plugin-content-docs": {
+      "js-yaml": "4.1.1"
+    },
+    "cosmiconfig": {
+      "js-yaml": "4.1.1"
+    }
   }
 }
