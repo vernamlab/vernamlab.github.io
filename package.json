@@ -80,6 +80,9 @@
     },
     "cosmiconfig": {
       "js-yaml": "4.1.1"
+    },
+    "webpack-bundle-analyzer": {
+      "ws": "8.18.2"
     }
   }
 }
