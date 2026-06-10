@@ -398,26 +398,18 @@
     }
 }
 
-/* Ensure your .hero-slider-wrapper still correctly defines the overall area and height */
-.hero-slider-wrapper {
-    position: relative;
-    /* Height is determined by the carousel item height, e.g., 400px */
+/* Keep Nuka Carousel controls usable above the full-slide hero overlay. */
+.hero-text-banner {
+    pointer-events: none;
 }
 
-.carousel-item-padding-40-px { /* This class on the <li> carousel items defines the slide height */
-    height: 400px; /* Or your chosen standard slide height */
-    /* ... other styles ... */
+.slider-control-centerleft,
+.slider-control-centerright,
+.slider-control-bottomcenter,
+.custom-dot-list-style {
+    z-index: 11 !important;
 }
 
-/* You might need to ensure carousel arrows/dots are above this full-banner overlay */
-/* If using react-multi-carousel default arrows/dots, they usually have their own z-index.
-   If they get hidden, you might need to target them and increase their z-index.
-   Example for default react-multi-carousel arrows: */
-.react-multiple-carousel__arrow {
-    z-index: 11 !important; /* Make sure arrows are on top */
-}
-.custom-dot-list-style { /* Or .react-multi-carousel-dot-list */
-    z-index: 11 !important; /* Make sure dots are on top */
-    /* Adjust bottom position if needed, as the banner now covers full height */
-    bottom: 10px; /* Example, default is usually 15px or 30px */
+.custom-dot-list-style {
+    bottom: 10px;
 }
