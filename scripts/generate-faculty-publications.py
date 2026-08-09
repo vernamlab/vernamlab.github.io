@@ -19,6 +19,10 @@ SOURCES = {
     "Shahin Tajik": ROOT / "scholar-data" / "tajik_cleaned.bib",
 }
 
+MINIMUM_PUBLICATION_YEARS = {
+    "Fatemeh Ganji": 2020,
+}
+
 
 def docx_bibliography(path):
     with ZipFile(path) as archive:
@@ -90,6 +94,9 @@ def main():
         unique = {}
         for entry in split_entries(bibliography):
             item = publication(entry)
+            minimum_year = MINIMUM_PUBLICATION_YEARS.get(faculty)
+            if minimum_year and (item["year"] is None or item["year"] < minimum_year):
+                continue
             key = title_key(item["title"])
             if key and key not in unique:
                 unique[key] = item
