@@ -17,7 +17,7 @@ const FeatureList = [
     title: 'Undergraduate Students',
     description: (
       <>
-        WPI CHIPS offers you an opportunity for a cutting edge research experience and MQP (Master Qualifying Project). 
+        WPI Vernam Lab offers you an opportunity for a cutting edge research experience and MQP (Master Qualifying Project).
         In the past few years, we have worked on the design of secure hardware and software, advanced design methods for 
         secure chip design, first-of-a-kind prototypes of secure chips, and much more. 
         Reach out to faculty and consult the list of MQP projects.
