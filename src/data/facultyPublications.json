@@ -1,0 +1,1678 @@
+{
+  "Fatemeh Ganji": [
+    {
+      "title": "Quantization of Spiking Neural Networks Beyond Accuracy",
+      "authors": "Smith, Evan Gibson, Whitehill, Jacob, Ganji, Fatemeh",
+      "venue": "arXiv preprint arXiv:2604.14487",
+      "year": 2026
+    },
+    {
+      "title": "Timing and Memory Telemetry on GPUs for AI Governance",
+      "authors": "Monfared, Saleh K, Ganji, Fatemeh, Holcomb, Dan, Tajik, Shahin",
+      "venue": "arXiv preprint arXiv:2602.09369",
+      "year": 2026
+    },
+    {
+      "title": "Uncertainty estimation in neural network-enabled side-channel analysis and links to explainability",
+      "authors": "Nouraniboosjin, Seyedmohammad, Ganji, Fatemeh",
+      "venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+      "year": 2026
+    },
+    {
+      "title": "Garblet: Multi-party computation for protecting chiplet-based systems",
+      "authors": "Hashemi, Mohammad, Tajik, Shahin, Ganji, Fatemeh",
+      "venue": "2025 IEEE 43rd VLSI Test Symposium (VTS)",
+      "year": 2025
+    },
+    {
+      "title": "GuardianMPC: Backdoor-Resilient Neural Network Computation",
+      "authors": "Hashemi, Mohammad, Forte, Domenic, Ganji, Fatemeh",
+      "venue": "IEEE Access",
+      "year": 2025
+    },
+    {
+      "title": "Methods for Verifying Integrity and Authenticity of a Printed Circuit Board",
+      "authors": "Mosavirik, Tahoura, Ganji, Fatemeh, Schaumont, Patrick, Tajik, Shahin, Martyak Jr, Paul L, Thow, Michael",
+      "venue": "US Patent App. 18/837,093",
+      "year": 2025
+    },
+    {
+      "title": "Open Tools, Interfaces and Metrics for Implementation Security Testing: Acceleration of AI for Implementation Security Testing",
+      "authors": "Aysu, Aydin, Batina, Lejla, Eswari Devi, N, Dinu, Daniel, Ganji, Fatemeh, Mukhopadhyay, Depdeep, Nouraniboosjin, Seyedmohammad, Picek, Stjepan, Saarinen, Markku-Juhani, Schaumont, Patrick, others",
+      "venue": "Optimist OSE",
+      "year": 2025
+    },
+    {
+      "title": "Rock and a Hard Place: Attack Hardness in Neural Network-assisted Side Channel Analysis",
+      "authors": "Nouraniboosjin, Seyedmohammad, Ganji, Fatemeh",
+      "venue": "Cryptology ePrint Archive",
+      "year": 2025
+    },
+    {
+      "title": "SCAPEgoat: Side-channel Analysis Library",
+      "authors": "Mehta, Dev, Marcantino, Trey, Hashemi, Mohammad, Karkache, Sam, Shanmugam, Dillibabu, Schaumont, Patrick, Ganji, Fatemeh",
+      "venue": "2025 IEEE 43rd VLSI Test Symposium (VTS)",
+      "year": 2025
+    },
+    {
+      "title": "Swarm in EM Hay: Particle Swarm-guided Probe Placement for EM SCA",
+      "authors": "Mehta, Dev, Nouraniboosjin, Seyedmohammad, Safa, Maryam S, Tajik, Shahin, Ganji, Fatemeh",
+      "venue": "Cryptology ePrint Archive",
+      "year": 2025
+    },
+    {
+      "title": "There's Waldo: PCB Tamper Forensic Analysis Using Explainable AI on Impedance Signatures",
+      "authors": "Safa, Maryam Saadat, Nouraniboosjin, Seyedmohammad, Ganji, Fatemeh, Tajik, Shahin",
+      "venue": "2025 IEEE International Symposium on Electromagnetic Compatibility, Signal & Power Integrity (EMC+ SIPI)",
+      "year": 2025
+    },
+    {
+      "title": "Towards AI-driven Optimization of Robust Probing Model-compliant Masked Hardware Gadgets Using Evolutionary Algorithms",
+      "authors": "Koblah, David S, Mehta, Dev M, Hashemi, Mohammad, Ganji, Fatemeh, Forte, Domenic",
+      "venue": "Cryptology ePrint Archive",
+      "year": 2025
+    },
+    {
+      "title": "1/0 shades of UC: photonic side-channel analysis of universal circuits",
+      "authors": "Mehta, Dev M, Hashemi, Mohammad, Forte, Domenic, Tajik, Shahin, Ganji, Fatemeh",
+      "venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+      "year": 2024
+    },
+    {
+      "title": "A Resource-Efficient Binary CNN Implementation for Enabling Contactless IoT Authentication",
+      "authors": "Hasan, Mahmudul, Hoque, Tamzidul, Ganji, Fatemeh, Woodard, Damon, Forte, Domenic, Shomaji, Sumaiya",
+      "venue": "Journal of Hardware and Systems Security",
+      "year": 2024
+    },
+    {
+      "title": "An Open Source Ecosystem for Implementation Security Testing",
+      "authors": "Aysu, Aydin, Ganji, Fatemeh, Marcantonio, Trey, Schaumont, Patrick",
+      "venue": "Cryptology ePrint Archive",
+      "year": 2024
+    },
+    {
+      "title": "Bake It Till You Make It: Heat-induced Power Leakage from Masked Neural Networks",
+      "authors": "Mehta, Dev M, Hashemi, Mohammad, Koblah, David S, Forte, Domenic, Ganji, Fatemeh",
+      "venue": "IACR Transactions on Cryptographic Hardware and Embedded System",
+      "year": 2024
+    },
+    {
+      "title": "EDA Workflow for Optimization of Robust Model Probing-Compliant Masked Hardware Gadgets",
+      "authors": "Koblah, David S, Ganji, Fatemeh, Mehta, Dev, Forte, Domenic, Hashemi, Mohammad",
+      "venue": "GOMACTech",
+      "year": 2024
+    },
+    {
+      "title": "FaultyGarble: fault attack on secure multiparty neural network inference",
+      "authors": "Hashemi, Mohammad, Mehta, Dev, Mitard, Kyle, Tajik, Shahin, Ganji, Fatemeh",
+      "venue": "2024 Workshop on Fault Detection and Tolerance in Cryptography (FDTC)",
+      "year": 2024
+    },
+    {
+      "title": "Time is money, friend! timing side-channel attack against garbled circuit constructions",
+      "authors": "Hashemi, Mohammad, Forte, Domenic, Ganji, Fatemeh",
+      "venue": "International Conference on Applied Cryptography and Network Security",
+      "year": 2024
+    },
+    {
+      "title": "Too hot to be true: Temperature calibration for higher confidence in NN-assisted side-channel analysis",
+      "authors": "Nouraniboosjin, Seyedmohammad, Ganji, Fatemeh",
+      "venue": "Cryptology ePrint Archive",
+      "year": 2024
+    },
+    {
+      "title": "A fast object detection-based framework for via modeling on pcb x-ray ct images",
+      "authors": "Koblah, David Selasi, Botero, Ulbert J, Costello, Sean P, Dizon-Paradis, Olivia P, Ganji, Fatemeh, Woodard, Damon L, Forte, Domenic",
+      "venue": "ACM Journal on Emerging Technologies in Computing Systems",
+      "year": 2023
+    },
+    {
+      "title": "A survey and perspective on artificial intelligence for security-aware electronic design automation",
+      "authors": "Koblah, David, Acharya, Rabin, Capecci, Daniel, Dizon-Paradis, Olivia, Tajik, Shahin, Ganji, Fatemeh, Woodard, Damon, Forte, Domenic",
+      "venue": "ACM transactions on design automation of electronic systems",
+      "year": 2023
+    },
+    {
+      "title": "Detection of recycled integrated circuits and system-on-chips based on degradation of power supply rejection ratio",
+      "authors": "Chowdhury, Sreeja, Ganji, Fatemeh, Maghari, Nima, Forte, Domenic J",
+      "venue": "US Patent 11,657,405",
+      "year": 2023
+    },
+    {
+      "title": "Hardness amplification of physical unclonable functions (PUFS)",
+      "authors": "Ganji, Fatemeh, Tajik, Shahin, Seifert, Jean-Pierre, Forte, Domenic, Tehranipoor, Mark M",
+      "venue": "US Patent 11,799,673",
+      "year": 2023
+    },
+    {
+      "title": "Quantization-aware neural architectural search for intrusion detection",
+      "authors": "Acharya, Rabin Yu, Jeune, Laurens Le, Mentens, Nele, Ganji, Fatemeh, Forte, Domenic",
+      "venue": "arXiv preprint arXiv:2311.04194",
+      "year": 2023
+    },
+    {
+      "title": "Active IC Metering Protocol Security Revisited and Enhanced with Oblivious Transfer",
+      "authors": "Roy, Steffi, Hashemi, Mohammad, Ganji, Fatemeh, Forte, Domenic",
+      "venue": "SRC TECHCON",
+      "year": 2022
+    },
+    {
+      "title": "Artificial neural networks and fault injection attacks",
+      "authors": "Tajik, Shahin, Ganji, Fatemeh",
+      "venue": "Security and Artificial Intelligence",
+      "year": 2022
+    },
+    {
+      "title": "Biometric locking methods and systems for internet of things and the connected person",
+      "authors": "Forte, Domenic J, Woodard, Damon, Ganji, Fatemeh, Shomaji, Sumaiya",
+      "venue": "US Patent App. 17/544,453",
+      "year": 2022
+    },
+    {
+      "title": "ERI: Foundations of Machine Learning for Side-channel Analysis",
+      "authors": "Ganji, Fatemeh",
+      "venue": "NSF Award Number 2138420. Directorate for Engineering",
+      "year": 2022
+    },
+    {
+      "title": "Garbled eda: Privacy preserving electronic design automation",
+      "authors": "Hashemi, Mohammad, Roy, Steffi, Ganji, Fatemeh, Forte, Domenic",
+      "venue": "Proceedings of the 41st IEEE/ACM International Conference on Computer-Aided Design",
+      "year": 2022
+    },
+    {
+      "title": "Hardware moving target defenses against physical attacks: Design challenges and opportunities",
+      "authors": "Koblah, David S, Ganji, Fatemeh, Forte, Domenic, Tajik, Shahin",
+      "venue": "Proceedings of the 9th ACM Workshop on Moving Target Defense",
+      "year": 2022
+    },
+    {
+      "title": "Hwgn 2: Side-channel protected nns through secure and private function evaluation",
+      "authors": "Hashemi, Mohammad, Roy, Steffi, Forte, Domenic, Ganji, Fatemeh",
+      "venue": "International Conference on Security, Privacy, and Applied Cryptography Engineering",
+      "year": 2022
+    },
+    {
+      "title": "Information theory-based evolution of neural networks for side-channel analysis",
+      "authors": "Acharya, Rabin Y, Ganji, Fatemeh, Forte, Domenic",
+      "venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+      "year": 2022
+    },
+    {
+      "title": "Physically Unclonable Functions and AI",
+      "authors": "Ganji, Fatemeh, Tajik, Shahin",
+      "venue": "Security and Artificial Intelligence",
+      "year": 2022
+    },
+    {
+      "title": "Scatterverif: Verification of electronic boards using reflection response of power distribution network",
+      "authors": "Mosavirik, Tahoura, Ganji, Fatemeh, Schaumont, Patrick, Tajik, Shahin",
+      "venue": "ACM Journal on Emerging Technologies in Computing Systems (JETC)",
+      "year": 2022
+    },
+    {
+      "title": "An analysis of enrollment and query attacks on hierarchical bloom filter-based biometric systems",
+      "authors": "Shomaji, Sumaiya, Ghosh, Pallabi, Ganji, Fatemeh, Woodard, Damon, Forte, Domenic",
+      "venue": "IEEE Transactions on Information Forensics and Security",
+      "year": 2021
+    },
+    {
+      "title": "Automated trace and copper plane extraction of x-ray tomography imaged pcbs",
+      "authors": "Botero, Ulbert J, Ganji, Fatemeh, Woodard, Damon L, Forte, Domenic",
+      "venue": "2021 IEEE Physical Assurance and Inspection of Electronics (PAINE)",
+      "year": 2021
+    },
+    {
+      "title": "Blocker: a biometric locking paradigm for IoT and the connected person",
+      "authors": "Shomaji, Sumaiya, Guo, Zimu, Ganji, Fatemeh, Karimian, Nima, Woodard, Damon, Forte, Domenic",
+      "venue": "Journal of Hardware and Systems Security",
+      "year": 2021
+    },
+    {
+      "title": "Chaogate Parameter Optimization using Bayesian Optimization and Genetic Algorithm",
+      "authors": "Acharya, Rabin Yu, Charlot, Noeloikeau F, Alam, Md Mahbub, Ganji, Fatemeh, Gauthier, Daniel, Forte, Domenic",
+      "venue": "International Symposium on Quality Electronic Design",
+      "year": 2021
+    },
+    {
+      "title": "Circuit Masking: From Theory to Standardization",
+      "authors": "COVIC, ANA, GANJI, FATEMEH, FORTE, DOMENIC",
+      "venue": "arXiv preprint arXiv:2106.12714",
+      "year": 2021
+    },
+    {
+      "title": "Circuit masking: from theory to standardization, a comprehensive survey for hardware security researchers and practitioners",
+      "authors": "Covic, Ana, Ganji, Fatemeh, Forte, Domenic",
+      "venue": "arXiv preprint arXiv:2106.12714",
+      "year": 2021
+    },
+    {
+      "title": "Hardware Trust and Assurance through Reverse Engineering: A Tutorial and Outlook from Image Analysis and Machine Learning Perspectives",
+      "authors": "Botero, Ulbert J, Wilson, Ronald, Lu, Hangwei, Rahman, Mir Tanjidur, Mallaiyan, Mukhil A, Ganji, Fatemeh, Asadizanjani, Navid, Tehranipoor, Mark M, Woodard, Damon L, Forte, Domenic",
+      "venue": "ACM Journal on Emerging Technologies in Computing Systems (JETC)",
+      "year": 2021
+    },
+    {
+      "title": "MRI: Acquisition of High-Resolution Photon Emission/Laser Fault Injection Microscope with High-Performance Computers for Failure Analysis and Security Assessment of Electronic Syst",
+      "authors": "Ganji, Fatemeh",
+      "venue": "NSF Award Number 2117349. Directorate for Engineering",
+      "year": 2021
+    },
+    {
+      "title": "Physical security in the post-quantum era: A survey on side-channel analysis, random number generators, and physically unclonable functions",
+      "authors": "Chowdhury, Sreeja, Covic, Ana, Acharya, Rabin Yu, Dupee, Spencer, Ganji, Fatemeh, Forte, Domenic",
+      "venue": "Journal of Cryptographic Engineering",
+      "year": 2021
+    },
+    {
+      "title": "Real-world snapshots vs. theory: Questioning the t-probing security model",
+      "authors": "Krachenfels, Thilo, Ganji, Fatemeh, Moradi, Amir, Tajik, Shahin, Seifert, Jean-Pierre",
+      "venue": "2021 IEEE symposium on security and privacy (SP)",
+      "year": 2021
+    },
+    {
+      "title": "RNNIDS: Enhancing network intrusion detection systems through deep learning",
+      "authors": "Sohi, Soroush M, Seifert, Jean-Pierre, Ganji, Fatemeh",
+      "venue": "Computers & Security",
+      "year": 2021
+    },
+    {
+      "title": "Via modeling on X-Ray images of printed circuit boards through deep learning",
+      "authors": "Koblah, David Selasi, Botero, Ulbert, Ganji, Fatemeh, Woodard, Damon, Forte, Domenic",
+      "venue": "GOMACTech",
+      "year": 2021
+    },
+    {
+      "title": "Attack of the genes: Finding keys and parameters of locked analog ICs using genetic algorithm",
+      "authors": "Acharya, Rabin Yu, Chowdhury, Sreeja, Ganji, Fatemeh, Forte, Domenic",
+      "venue": "2020 IEEE International Symposium on Hardware Oriented Security and Trust (HOST)",
+      "year": 2020
+    },
+    {
+      "title": "Automated detection and localization of counterfeit chip defects by texture analysis in infrared (IR) domain",
+      "authors": "Ghosh, Pallabi, Botero, Ulbert J, Ganji, Fatemeh, Woodard, Damon, Chakraborty, Rajat Subhra, Forte, Domenic",
+      "venue": "2020 IEEE Physical Assurance and Inspection of Electronics (PAINE)",
+      "year": 2020
+    },
+    {
+      "title": "Automated via detection for PCB reverse engineering",
+      "authors": "Botero, Ulbert J, Koblah, David, Capecci, Daniel E, Ganji, Fatemeh, Asadizanjani, Navid, Woodard, Damon L, Forte, Domenic",
+      "venue": "International Symposium for Testing and Failure Analysis",
+      "year": 2020
+    },
+    {
+      "title": "Circuit masking schemes: New hope for backside probing countermeasures?",
+      "authors": "Covic, Ana, Ganji, Fatemeh, Forte, Domenic",
+      "venue": "SRC TECHCON",
+      "year": 2020
+    },
+    {
+      "title": "Hardware Trust and Assurance through Reverse Engineering",
+      "authors": "BOTERO, ULBERT J, WILSON, RONALD, LU, HANGWEI, RAHMAN, MIR TANJIDUR, MALLAIYAN, MUKHIL A, GANJI, FATEMEH, ASADIZANJANI, NAVID, TEHRANIPOOR, MARK M, WOODARD, DAMON L, FORTE, DOMENIC",
+      "venue": "Association for Computing Machinery: New York, NY, USA",
+      "year": 2020
+    },
+    {
+      "title": "Low-cost remarked counterfeit IC detection using LDO regulators",
+      "authors": "Chowdhury, Sreeja, Ganji, Fatehmeh, Forte, Domenic",
+      "venue": "2020 IEEE International Symposium on Circuits and Systems (ISCAS)",
+      "year": 2020
+    },
+    {
+      "title": "Pitfalls in Machine Learning-based Adversary Modeling for Hardware Systems",
+      "authors": "Ganji, Fatemeh, Amir, Sarah, Tajik, Shahin, Forte, Domenic, Seifert, Jean-Pierre",
+      "venue": "Design and Test European Conference",
+      "year": 2020
+    },
+    {
+      "title": "Post-Quantum Hardware Security: Physical Security in Classic vs. Quantum Worlds",
+      "authors": "Covic, Ana, Chowdhury, Sreeja, Acharya, Rabin Yu, Ganji, Fatemeh, Forte, Domenic",
+      "venue": "Emerging Topics in Hardware Security",
+      "year": 2020
+    },
+    {
+      "title": "Recycled SoC detection using LDO degradation",
+      "authors": "Chowdhury, Sreeja, Ganji, Fatemeh, Forte, Domenic",
+      "venue": "SN Computer Science",
+      "year": 2020
+    },
+    {
+      "title": "Rock’n’roll PUFs: Crafting Provably Secure PUFs from Less Secure Ones (Extended Version)",
+      "authors": "Ganji, Fatemeh, Tajik, Shahin, Stauss, Pascal, Seifert, Jean-Pierre, Tehranipoor, Mark, Forte, Domenic",
+      "venue": "Journal of Cryptographic Engineering",
+      "year": 2020
+    },
+    {
+      "title": "Semi-supervised automated layer identification of x-ray tomography imaged pcbs",
+      "authors": "Botero, Ulbert J, Ganji, Fatemeh, Asadizanjani, Navid, Woodard, Damon L, Forte, Domenic",
+      "venue": "2020 IEEE Physical Assurance and Inspection of Electronics (PAINE)",
+      "year": 2020
+    },
+    {
+      "title": "Towards an insightful computer security seminar",
+      "authors": "Thimmaraju, Kashyap, Fietkau, Julian, Ganji, Fatemeh",
+      "venue": "arXiv preprint arXiv:2003.11340",
+      "year": 2020
+    },
+    {
+      "title": "Automated framework for unsupervised counterfeit integrated circuit detection by physical inspection",
+      "authors": "Ghosh, Pallabi, Ganji, Fatemeh, Forte, Domenic, Woodard, Damon L, Chakraborty, Rajat Subhra",
+      "venue": "",
+      "year": 2019
+    },
+    {
+      "title": "Blockchain-enabled Cryptographically-secure Hardware Obfuscation",
+      "authors": "Ganji, Fatemeh, Tajik, Shahin, Forte, Domenic, Seifert, Jean-Pierre",
+      "venue": "",
+      "year": 2019
+    },
+    {
+      "title": "Hierarchical Bloom Filter Framework for Security, Space-efficiency, and Rapid Query Handling in Biometric Systems",
+      "authors": "Shomaji, Sumaiya, Ganji, Fatemeh, Woodard, Damon, Forte, Domenic",
+      "venue": "10th IEEE International Conference on Biometrics: Theory, Applications and Systems (BTAS)",
+      "year": 2019
+    },
+    {
+      "title": "PUFmeter a property testing tool for assessing the robustness of physically unclonable functions to machine learning attacks",
+      "authors": "Ganji, Fatemeh, Forte, Domenic, Seifert, Jean-Pierre",
+      "venue": "IEEE Access",
+      "year": 2019
+    },
+    {
+      "title": "RAM-Jam: Remote temperature and voltage fault attack on FPGAs using memory collisions",
+      "authors": "Alam, Md Mahbub, Tajik, Shahin, Ganji, Fatemeh, Tehranipoor, Mark, Forte, Domenic",
+      "venue": "2019 Workshop on Fault Diagnosis and Tolerance in Cryptography (FDTC)",
+      "year": 2019
+    },
+    {
+      "title": "Recycled Analog and Mixed Signal Chip Detection at Zero Cost Using LDO Degradation",
+      "authors": "Chowdhury, Sreeja, Ganji, Fatemeh, Bryant, Troy, Maghari, Nima, Forte, Domenic",
+      "venue": "",
+      "year": 2019
+    },
+    {
+      "title": "The Power of IC Reverse Engineering for Hardware Trust and Assurance",
+      "authors": "Ganji, Fatemeh, Forte, Domenic, Asadizanjani, Navid, Tehranipoor, Mark, Woodard, Damon",
+      "venue": "Electronic Device Failure Analysis (EDFA)",
+      "year": 2019
+    },
+    {
+      "title": "A Fourier Analysis Based Attack against Physically Unclonable Functions",
+      "authors": "Ganji, Fatemeh, Tajik, Shahin, Seifert, Jean-Pierre",
+      "venue": "International Conference on Financial Cryptography and Data Security",
+      "year": 2018
+    },
+    {
+      "title": "On the Learnability of Physically Unclonable Functions",
+      "authors": "Ganji, Fatemeh",
+      "venue": "Springer",
+      "year": 2018
+    },
+    {
+      "title": "Having no mathematical model may not secure PUFs",
+      "authors": "Ganji, Fatemeh, Tajik, Shahin, Fäßler, Fabian, Seifert, Jean-Pierre",
+      "venue": "Journal of Cryptographic Engineering",
+      "year": 2017
+    },
+    {
+      "title": "Noise-Tolerant Machine Learning Attacks against Physically Unclonable Functions.",
+      "authors": "Ganji, Fatemeh, Tajik, Shahin, Seifert, Jean-Pierre",
+      "venue": "IACR Cryptology ePrint Archive",
+      "year": 2017
+    },
+    {
+      "title": "PAC learning of arbiter PUFs",
+      "authors": "Ganji, Fatemeh, Tajik, Shahin, Seifert, Jean-Pierre",
+      "venue": "Journal of Cryptographic Engineering",
+      "year": 2016
+    },
+    {
+      "title": "Strong machine learning attack against PUFs with no mathematical model",
+      "authors": "Ganji, Fatemeh, Tajik, Shahin, Fäßler, Fabian, Seifert, Jean-Pierre",
+      "venue": "International Conference on Cryptographic Hardware and Embedded Systems",
+      "year": 2016
+    },
+    {
+      "title": "Dispelling the myth: cloning the Physically Unclonable Functions (PUFs)",
+      "authors": "Ganji, Fatemeh, Tajik, Shahin, Seifert, Jean-Pierre",
+      "venue": "23 rd Crypto-Day",
+      "year": 2015
+    },
+    {
+      "title": "Greening campus WLANs: Energy-relevant usage and mobility patterns",
+      "authors": "Ganji, Fatemeh, Budzisz, Łukasz, Debele, Fikru G, Li, Nanfang, Meo, Michela, Ricca, Marco, Zhang, Yi, Wolisz, Adam",
+      "venue": "Computer Networks",
+      "year": 2015
+    },
+    {
+      "title": "Laser fault attack on physically unclonable functions",
+      "authors": "Tajik, Shahin, Lohrke, Heiko, Ganji, Fatemeh, Seifert, Jean-Pierre, Boit, Christian",
+      "venue": "2015 workshop on fault diagnosis and tolerance in cryptography (FDTC)",
+      "year": 2015
+    },
+    {
+      "title": "Lattice basis reduction attack against physically unclonable functions",
+      "authors": "Ganji, Fatemeh, Krämer, Juliane, Seifert, Jean-Pierre, Tajik, Shahin",
+      "venue": "Proceedings of the 22nd ACM SIGSAC Conference on Computer and Communications Security",
+      "year": 2015
+    },
+    {
+      "title": "Let me prove it to you: RO PUFs are provably learnable",
+      "authors": "Ganji, Fatemeh, Tajik, Shahin, Seifert, Jean-Pierre",
+      "venue": "International Conference on Information Security and Cryptology",
+      "year": 2015
+    },
+    {
+      "title": "Why attackers win: on the learnability of XOR arbiter PUFs",
+      "authors": "Ganji, Fatemeh, Tajik, Shahin, Seifert, Jean-Pierre",
+      "venue": "International Conference on Trust and Trustworthy Computing",
+      "year": 2015
+    },
+    {
+      "title": "Dynamic resource provisioning for energy efficiency in wireless access networks: A survey and an outlook",
+      "authors": "Budzisz, Łukasz, Ganji, Fatemeh, Rizzo, Gianluca, Marsan, Marco Ajmone, Meo, Michela, Zhang, Yi, Koutitas, George, Tassiulas, Leandros, Lambert, Sofie, Lannoo, Bart, others",
+      "venue": "IEEE Communications Surveys & Tutorials",
+      "year": 2014
+    },
+    {
+      "title": "On detecting WLAN users communication attempts",
+      "authors": "Ganji, Fatemeh, Zubow, Anatolij, Budzisz, Łukasz, Wolisz, Adam",
+      "venue": "2014 7th IFIP Wireless and Mobile Networking Conference (WMNC)",
+      "year": 2014
+    },
+    {
+      "title": "Assessment of the power saving potential in dense enterprise WLANs",
+      "authors": "Ganji, Fatemeh, Budzisz, Łukasz, Wolisz, Adam",
+      "venue": "2013 IEEE 24th Annual International Symposium on Personal, Indoor, and Mobile Radio Communications (PIMRC)",
+      "year": 2013
+    },
+    {
+      "title": "The TREND experimental activities on “green” communication networks",
+      "authors": "Meo, Michela, Zhang, Yi, Hu, Yige, Idzikowski, Filip, Budzisz, Łukasz, Ganji, Fatemeh, Haratcherev, Ivaylo, Conte, Alberto, Cianfrani, Antonio, Chiaraviglio, Luca, others",
+      "venue": "2013 24th Tyrrhenian International Workshop on Digital Communications-Green ICT (TIWDC)",
+      "year": 2013
+    },
+    {
+      "title": "TKN Telecommunication",
+      "authors": "Ganji, Fatemeh, Budzisz, Łukasz, Wolisz, Adam",
+      "venue": "",
+      "year": 2013
+    },
+    {
+      "title": "A novel BEM-based channel estimation algorithm for time variant uplink OFDMA system",
+      "authors": "Ganji, Fatemeh, Tabatabavakili, Vahid, Khodadad, Farid Samsami, Hosseinnezhad, Makan, Safaei, Amin",
+      "venue": "2010 The 12th International Conference on Advanced Communication Technology (ICACT)",
+      "year": 2010
+    },
+    {
+      "title": "A practical approach for coherent signal surveillance and blind parameter assessment in asynchoronous ds-cdma systems in multipath channel",
+      "authors": "Khodadad, Farid Samsami, Ganji, Fatemeh, Aref, Mohammad R",
+      "venue": "2010 18th Iranian Conference on Electrical Engineering",
+      "year": 2010
+    },
+    {
+      "title": "A robust pn length estimation in down link low-snr ds-cdma multipath channels",
+      "authors": "Khodadad, Farid Samsami, Ganji, Fatemeh, Safaei, Amin, Khodadad, Farshid Samsami",
+      "venue": "2010 The 12th International Conference on Advanced Communication Technology (ICACT)",
+      "year": 2010
+    },
+    {
+      "title": "Low complexity MMSE based channel estimation algorithm in frequency domain for fixed broadband wireless access system",
+      "authors": "Hosseinnezhad, Makan, Ganji, Fatemeh",
+      "venue": "2009 IEEE 10th Annual Wireless and Microwave Technology Conference",
+      "year": 2009
+    },
+    {
+      "title": "A Property Testing Tool for Assessing the Robustness of Physically Unclonable Functions to Machine Learning Attacks",
+      "authors": "GANJI, FATEMEH, FORTE, DOMENIC, SEIFERT, JEAN-PIERRE",
+      "venue": "",
+      "year": null
+    }
+  ],
+  "Patrick Schaumont": [
+    {
+      "title": "Fault Analysis of Microscaling Formats on a RISC-V SoC",
+      "authors": "Dillibabu Shanmugam, Patrick Schaumont",
+      "venue": "Proceedings of the Great Lakes Symposium on VLSI 2026 (GLSVLSI 2026)",
+      "year": 2026
+    },
+    {
+      "title": "Hierarchical EMFI analysis on a RISC-V SoC",
+      "authors": "Dillibabu Shanmugam, Zhenyuan Liu, Patrick Schaumont",
+      "venue": "2026 IEEE European Test Symposium (ETS)",
+      "year": 2026
+    },
+    {
+      "title": "Open-Source Reference for Reproducible Side-Channel Assessment of Post-Quantum Standards",
+      "authors": "Dillibabu Shanmugam, Zhenyuan Liu, Patrick Schaumont",
+      "venue": "Open Source Computer Architecture Research (OSCAR) Workshop 2026",
+      "year": 2026
+    },
+    {
+      "title": "Security Analysis of Microscaling Formats Under Fault Injection on a RISC-V Edge Platform",
+      "authors": "Dillibabu Shanmugam, Patrick Schaumont",
+      "venue": "AIHWS 2026 (ACNS Workshops)",
+      "year": 2026
+    },
+    {
+      "title": "CAPRI6: a solution for fault root cause detection",
+      "authors": "Dillibabu Shanmugam, Zhenyuan Liu, Patrick Schaumont",
+      "venue": "34th Microelectronics Design and Test Symposium (IEEE MDTS 2025)",
+      "year": 2025
+    },
+    {
+      "title": "Fault Countermeasures",
+      "authors": "P SCHAUMONT, R SINGH",
+      "venue": "Embedded Cryptography 1",
+      "year": 2025
+    },
+    {
+      "title": "GlitchGlück: Enabling Software Vulnerabilities through Guided Hardware Fault Injection",
+      "authors": "Zhenyuan Liu, Dillibabu Shanmugam, Patrick Schaumont",
+      "venue": "19th USENIX WOOT Conference on Offensive Technologies (WOOT 2025)",
+      "year": 2025
+    },
+    {
+      "title": "Methods for Verifying Integrity and Authenticity of a Printed Circuit Board",
+      "authors": "Tahoura Mosavirik, Fatemeh Ganji, Patrick Schaumont, Shahin Tajik, Paul L. Martyak Jr., Michael Thow",
+      "venue": "US Patent Application US20250180628A1",
+      "year": 2025
+    },
+    {
+      "title": "Open Tools, Interfaces and Metrics for Implementation Security Testing: Acceleration of AI for Implementation Security Testing",
+      "authors": "Aydin Aysu, Lejla Batina, Eswari Devi N, Daniel Dinu, Fatemeh Ganji, Debdeep Mukhopadhyay, Seyedmohammad Nouraniboosjin, Stjepan Picek, Markku-Juhani Saarinen, Patrick Schaumont, Caner Tol, Marc Witteman",
+      "venue": "OPTIMIST OSE Working Document",
+      "year": 2025
+    },
+    {
+      "title": "SCAPEgoat: Side-channel Analysis Library",
+      "authors": "Dev Mehta, Trey Marcantonio, Mohammad Hashemi, Sam Karkache, Dillibabu Shanmugam, Patrick Schaumont, Fatemeh Ganji",
+      "venue": "2025 IEEE 43rd VLSI Test Symposium (VTS)",
+      "year": 2025
+    },
+    {
+      "title": "Telescope: Top-down hierarchical pre-silicon side-channel leakage assessment in system-on-chip design",
+      "authors": "Zhenyuan Liu, Andrew Malnicof, Arna Roy, Patrick Schaumont",
+      "venue": "Proceedings of the 20th ACM Asia Conference on Computer and Communications Security (AsiaCCS)",
+      "year": 2025
+    },
+    {
+      "title": "μScan: Deep Learning Detection of Faulty Micro-architecture States and Patterns from Scan-Chain Data",
+      "authors": "Dillibabu Shanmugam, Zhenyuan Liu, Andrew Malnicof, Patrick Schaumont",
+      "venue": "6th Workshop on Artificial Intelligence in Hardware Security",
+      "year": 2025
+    },
+    {
+      "title": "An Open Source Ecosystem for Implementation Security Testing",
+      "authors": "Aydin Aysu, Fatemeh Ganji, Trey Marcantonio, Patrick Schaumont",
+      "venue": "Cryptology ePrint Archive, Paper 2024/1904",
+      "year": 2024
+    },
+    {
+      "title": "Analysis of EM Fault Injection on Bit-Sliced Number Theoretic Transform Software in Dilithium",
+      "authors": "Richa Singh, Saad Islam, Berk Sunar, Patrick Schaumont",
+      "venue": "ACM Transactions on Embedded Computing Systems",
+      "year": 2024
+    },
+    {
+      "title": "FaultDetective: Explainable to a Fault, from the Design Layout to the Software",
+      "authors": "Zhenyuan Liu, Dillibabu Shanmugam, Patrick Schaumont",
+      "venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+      "year": 2024
+    },
+    {
+      "title": "Guest editorial ieee transactions on emerging topics in computing special section on advances in emerging privacy-preserving computing",
+      "authors": "Jinguang Han, Patrick Schaumont, Willy Susilo",
+      "venue": "IEEE Transactions on Emerging Topics in Computing",
+      "year": 2024
+    },
+    {
+      "title": "Microplumber: Finding hidden sources of power-based SCL in microcontrollers",
+      "authors": "Arna Roy, Patrick Schaumont",
+      "venue": "2024 IEEE Computer Society Annual Symposium on VLSI (ISVLSI)",
+      "year": 2024
+    },
+    {
+      "title": "Parasitic circus: On the feasibility of golden-free PCB verification",
+      "authors": "Maryam Saadat-Safa, Patrick Schaumont, Shahin Tajik",
+      "venue": "2024 IEEE International Symposium on the Physical and Failure Analysis of Integrated Circuits (IPFA)",
+      "year": 2024
+    },
+    {
+      "title": "T-Scope: Side-channel Leakage Assessment with a Hardware-accelerated Online TVLA Test",
+      "authors": "Hao Wang, Andrew Malnicof, Patrick Schaumont",
+      "venue": "2024 IEEE 67th International Midwest Symposium on Circuits and Systems (MWSCAS)",
+      "year": 2024
+    },
+    {
+      "title": "Electronic tampering detection",
+      "authors": "S Tajik, P Schaumont, T Mosavirik",
+      "venue": "US Patent App. 18/209,785",
+      "year": 2023
+    },
+    {
+      "title": "Gate-level side-channel leakage ranking with architecture correlation analysis",
+      "authors": "Pantea Kiaei, Yuan Yao, Zhenyuan Liu, Nicole Fern, Cees-Bart Breunesse, Jasper Van Woudenberg, Kate Gillis, Alex Dich, Peter Grossmann, Patrick Schaumont",
+      "venue": "IEEE Transactions on Emerging Topics in Computing",
+      "year": 2023
+    },
+    {
+      "title": "Impedanceverif: On-chip impedance sensing for system-level tampering detection",
+      "authors": "Tahoura Mosavirik, Patrick Schaumont, Shahin Tajik",
+      "venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+      "year": 2023
+    },
+    {
+      "title": "Improving side-channel leakage assessment using pre-silicon leakage models",
+      "authors": "Dillibabu Shanmugam, Patrick Schaumont",
+      "venue": "14th International Workshop on Constructive Side-Channel Analysis and Secure Design (COSADE 2023)",
+      "year": 2023
+    },
+    {
+      "title": "Lightning Talk: The Incredible Shrinking Black Box Model",
+      "authors": "Patrick Schaumont",
+      "venue": "2023 60th ACM/IEEE Design Automation Conference (DAC)",
+      "year": 2023
+    },
+    {
+      "title": "Programmable ro (pro): A multipurpose countermeasure against side-channel and fault injection attack",
+      "authors": "Yuan Yao, Pantea Kiaei, Richa Singh, Shahin Tajik, Patrick Schaumont",
+      "venue": "Security of FPGA-Accelerated Cloud Computing Environments",
+      "year": 2023
+    },
+    {
+      "title": "Quantitative fault injection analysis",
+      "authors": "Jakob Feldtkeller, Tim Güneysu, Patrick Schaumont",
+      "venue": "Advances in Cryptology – ASIACRYPT 2023, Part IV",
+      "year": 2023
+    },
+    {
+      "title": "Root-cause analysis of the side channel leakage from ASCON implementations",
+      "authors": "Zhenyuan Liu, Patrick Schaumont",
+      "venue": "NIST Lightweight Cryptography Workshop 2023",
+      "year": 2023
+    },
+    {
+      "title": "Side channel leakage source identification in an electronic circuit design",
+      "authors": "Yao Yuan, Baris Ege, Robert Patrick Schaumont, Tarun Kathuria",
+      "venue": "US Patent Application US20230237229A1",
+      "year": 2023
+    },
+    {
+      "title": "You can hide but you can't verify: On side-channel countermeasure verification",
+      "authors": "P Schaumont",
+      "venue": "Workshop on SSH-SoC",
+      "year": 2023
+    },
+    {
+      "title": "A signature correction attack on the post-quantum scheme dilithium",
+      "authors": "Saad Islam, Koksal Mus, Richa Singh, Patrick Schaumont, Berk Sunar",
+      "venue": "2022 IEEE 7th European Symposium on Security and Privacy (EuroS&P)",
+      "year": 2022
+    },
+    {
+      "title": "An End-to-End Analysis of EMFI on Bit-Sliced Post-Quantum Implementations",
+      "authors": "Richa Singh, Saad Islam, Berk Sunar, Patrick Schaumont",
+      "venue": "arXiv preprint arXiv:2204.06153",
+      "year": 2022
+    },
+    {
+      "title": "Architecture support for bitslicing",
+      "authors": "Pantea Kiaei, Taylor Conroy, Patrick Schaumont",
+      "venue": "IEEE Transactions on Emerging Topics in Computing",
+      "year": 2022
+    },
+    {
+      "title": "Benchmarking and configuring security levels in intermittent computing",
+      "authors": "Archanaa S. Krishnan, Patrick Schaumont",
+      "venue": "ACM Transactions on Embedded Computing Systems",
+      "year": 2022
+    },
+    {
+      "title": "Collaborative: FMitF: Track I: A Principled Approach to Modeling and Analysis of Hardware Fault Attacks on Embedded Software",
+      "authors": "Patrick Schaumont",
+      "venue": "National Science Foundation (NSF) Award 2219810",
+      "year": 2022
+    },
+    {
+      "title": "Emerging Computing Challenges in the Interaction of Hardware and Software",
+      "authors": "P Schaumont",
+      "venue": "Computer",
+      "year": 2022
+    },
+    {
+      "title": "Gate-level side-channel leakage assessment with architecture correlation analysis",
+      "authors": "Pantea Kiaei, Yuan Yao, Zhenyuan Liu, Nicole Fern, Cees-Bart Breunesse, Jasper Van Woudenberg, Kate Gillis, Alex Dich, Peter Grossmann, Patrick Schaumont",
+      "venue": "arXiv preprint arXiv:2204.11972",
+      "year": 2022
+    },
+    {
+      "title": "Leverage the average: Averaged sampling in pre-silicon side-channel leakage assessment",
+      "authors": "Pantea Kiaei, Zhenyuan Liu, Patrick Schaumont",
+      "venue": "Proceedings of the Great Lakes Symposium on VLSI 2022 (GLSVLSI 2022)",
+      "year": 2022
+    },
+    {
+      "title": "Root-cause analysis of power-based side-channel leakage in lightweight cryptography candidates",
+      "authors": "Zhenyuan Liu, Patrick Schaumont",
+      "venue": "NIST 5th Lightweight Cryptography Workshop",
+      "year": 2022
+    },
+    {
+      "title": "Scatterverif: Verification of electronic boards using reflection response of power distribution network",
+      "authors": "Tahoura Mosavirik, Fatemeh Ganji, Patrick Schaumont, Shahin Tajik",
+      "venue": "ACM Journal on Emerging Technologies in Computing Systems",
+      "year": 2022
+    },
+    {
+      "title": "Signature Correction Attack on Dilithium Signature Scheme",
+      "authors": "Saad Islam, Koksal Mus, Richa Singh, Patrick Schaumont, Berk Sunar",
+      "venue": "2022 IEEE 7th European Symposium on Security and Privacy (EuroS&P)",
+      "year": 2022
+    },
+    {
+      "title": "Soc root canal! root cause analysis of power side-channel leakage in system-on-chip designs",
+      "authors": "Pantea Kiaei, Patrick Schaumont",
+      "venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+      "year": 2022
+    },
+    {
+      "title": "SoK: Design tools for side-channel-aware implementations",
+      "authors": "Ileana Buhan, Lejla Batina, Yuval Yarom, Patrick Schaumont",
+      "venue": "Proceedings of the 2022 ACM Asia Conference on Computer and Communications Security (AsiaCCS)",
+      "year": 2022
+    },
+    {
+      "title": "The ASHES 2020 special issue at JCEN",
+      "authors": "Chip-Hong Chang, Stefan Katzenbeisser, Ulrich Rührmair, Patrick Schaumont",
+      "venue": "Journal of Cryptographic Engineering",
+      "year": 2022
+    },
+    {
+      "title": "The Technological Arms Race in Hardware Security",
+      "authors": "Shahin Tajik, Patrick Schaumont",
+      "venue": "2022 IEEE International Symposium on Electromagnetic Compatibility, Signal & Power Integrity (EMC+SIPI), Special Session on Hardware Security for a Smart Society",
+      "year": 2022
+    },
+    {
+      "title": "Threat modeling and risk analysis for miniaturized wireless biomedical devices",
+      "authors": "Vladimir Vakhter, Betul Soysal, Patrick Schaumont, Ulkuhan Guler",
+      "venue": "IEEE Internet of Things Journal",
+      "year": 2022
+    },
+    {
+      "title": "Computer Security at the Forefront of Emerging Topics in Computing",
+      "authors": "P Schaumont, P Montuschi",
+      "venue": "Computer",
+      "year": 2021
+    },
+    {
+      "title": "Dimming down LED: an open-source threshold implementation on light encryption device (LED) block cipher",
+      "authors": "Y Yao, M Yang, P Kiaei, P Schaumont",
+      "venue": "arXiv preprint arXiv:2108.12079",
+      "year": 2021
+    },
+    {
+      "title": "Hardware Vulnerability Tool",
+      "authors": "Jeffrey I. Collard, Valentina J. Harrison",
+      "venue": "Worcester Polytechnic Institute Major Qualifying Project (MQP)",
+      "year": 2021
+    },
+    {
+      "title": "Real-time detection and adaptive mitigation of power-based side-channel leakage in soc",
+      "authors": "P Kiaei, Y Yao, P Schaumont",
+      "venue": "arXiv preprint arXiv:2107.01725",
+      "year": 2021
+    },
+    {
+      "title": "Rewrite to reinforce: Rewriting the binary to apply countermeasures against fault injection",
+      "authors": "Pantea Kiaei, Cees-Bart Breunesse, Mohsen Ahmadi, Patrick Schaumont, Jasper Van Woudenberg",
+      "venue": "2021 58th ACM/IEEE Design Automation Conference (DAC)",
+      "year": 2021
+    },
+    {
+      "title": "Saidoyoki: Evaluating side-channel leakage in pre-and post-silicon setting.",
+      "authors": "Pantea Kiaei, Zhenyuan Liu, Ramazan Kaan Eren, Yuan Yao, Patrick Schaumont",
+      "venue": "IACR Cryptology ePrint Archive, Paper 2021/1235",
+      "year": 2021
+    },
+    {
+      "title": "Security for emerging miniaturized wireless biomedical devices: threat modeling with application to case studies",
+      "authors": "Vladimir Vakhter, Betul Soysal, Patrick Schaumont, Ulkuhan Guler",
+      "venue": "arXiv preprint arXiv:2105.05937",
+      "year": 2021
+    },
+    {
+      "title": "Simplifi: Hardware simulation of embedded software fault attacks",
+      "authors": "J Grycel, P Schaumont",
+      "venue": "Cryptography",
+      "year": 2021
+    },
+    {
+      "title": "Socially-distant hands-on labs for a real-time digital signal processing course",
+      "authors": "Patrick Schaumont",
+      "venue": "Proceedings of the 2021 Great Lakes Symposium on VLSI (GLSVLSI 2021)",
+      "year": 2021
+    },
+    {
+      "title": "The ASHES 2019 special issue at JCEN",
+      "authors": "Chip-Hong Chang, Daniel E. Holcomb, Ulrich Rührmair, Patrick Schaumont",
+      "venue": "Journal of Cryptographic Engineering",
+      "year": 2021
+    },
+    {
+      "title": "Treernn: Topology-preserving deep graph embedding and learning",
+      "authors": "Yecheng Lyu, Ming Li, Xinming Huang, Ulkuhan Guler, Patrick Schaumont, Ziming Zhang",
+      "venue": "25th International Conference on Pattern Recognition (ICPR)",
+      "year": 2021
+    },
+    {
+      "title": "Architecture correlation analysis (ACA): Identifying the source of side-channel leakage at gate-level",
+      "authors": "Yuan Yao, Tarun Kathuria, Baris Ege, Patrick Schaumont",
+      "venue": "2020 IEEE International Symposium on Hardware Oriented Security and Trust (HOST)",
+      "year": 2020
+    },
+    {
+      "title": "ASHES 2020: 4th Workshop on Attacks and Solutions in Hardware Security",
+      "authors": "Chip-Hong Chang, Stefan Katzenbeisser, Ulrich Rührmair, Patrick Schaumont",
+      "venue": "Proceedings of the 2020 ACM SIGSAC Conference on Computer and Communications Security (CCS), ASHES 2020",
+      "year": 2020
+    },
+    {
+      "title": "Augmenting leakage detection using bootstrapping",
+      "authors": "Yuan Yao, Michael Tunstall, Elke De Mulder, Andrey Kochepasov, Patrick Schaumont",
+      "venue": "11th International Workshop on Constructive Side-Channel Analysis and Secure Design (COSADE 2020)",
+      "year": 2020
+    },
+    {
+      "title": "Custom instruction support for modular defense against side-channel and fault attacks",
+      "authors": "Pantea Kiaei, Darius Mercadier, Pierre-Évariste Dagand, Karine Heydemann, Patrick Schaumont",
+      "venue": "11th International Workshop on Constructive Side-Channel Analysis and Secure Design (COSADE 2020)",
+      "year": 2020
+    },
+    {
+      "title": "Domain-oriented masked instruction set architecture for RISC-V",
+      "authors": "P Kiaei, P Schaumont",
+      "venue": "Cryptology ePrint Archive",
+      "year": 2020
+    },
+    {
+      "title": "KHOVID: interoperable privacy preserving digital contact tracing",
+      "authors": "Xiang Cheng, Hanchao Yang, Archanaa S. Krishnan, Patrick Schaumont, Yaling Yang",
+      "venue": "arXiv preprint arXiv:2012.09375",
+      "year": 2020
+    },
+    {
+      "title": "Minimum on-the-node data security for the next-generation miniaturized wireless biomedical devices",
+      "authors": "Vladimir Vakhter, Betul Soysal, Patrick Schaumont, Ulkuhan Guler",
+      "venue": "2020 IEEE 63rd International Midwest Symposium on Circuits and Systems (MWSCAS)",
+      "year": 2020
+    },
+    {
+      "title": "Parallel synchronous code generation for second round light weight candidates",
+      "authors": "Pantea Kiaei, Archanaa S. Krishnan, Patrick Schaumont",
+      "venue": "4th NIST Lightweight Cryptography Workshop",
+      "year": 2020
+    },
+    {
+      "title": "RAPID: Collaborative: A privacy-preserving contact tracing system for COVID-19 containment and mitigation",
+      "authors": "Patrick Schaumont",
+      "venue": "National Science Foundation (NSF) Award 2028190",
+      "year": 2020
+    },
+    {
+      "title": "Risk and architecture factors in digital exposure notification",
+      "authors": "Archanaa Santhana Krishnan, Yaling Yang, Patrick Schaumont",
+      "venue": "Embedded Computer Systems: Architectures, Modeling, and Simulation (SAMOS 2020)",
+      "year": 2020
+    },
+    {
+      "title": "Secure and stateful power transitions in embedded systems",
+      "authors": "Archanaa Santhana Krishnan, Charles Suslowicz, Patrick Schaumont",
+      "venue": "Journal of Hardware and Systems Security",
+      "year": 2020
+    },
+    {
+      "title": "Synthesis of parallel synchronous software",
+      "authors": "P Kiaei, P Schaumont",
+      "venue": "IEEE Embedded Systems Letters",
+      "year": 2020
+    },
+    {
+      "title": "Towards secure composition of integrated circuits and electronic systems: On the role of EDA",
+      "authors": "Johann Knechtel, Elif Bilge Kavun, Francesco Regazzoni, Annelie Heuser, Anupam Chattopadhyay, Debdeep Mukhopadhyay, Soumyajit Dey, Yunsi Fei, Yaacov Belenky, Itamar Levi, Tim Güneysu, Patrick Schaumont, Ilia Polian",
+      "venue": "arXiv preprint arXiv:2001.09672",
+      "year": 2020
+    },
+    {
+      "title": "Using universal composition to design and analyze secure complex hardware systems",
+      "authors": "Ran Canetti, Marten van Dijk, Hassan Maleki, Ulrich Rührmair, Patrick Schaumont",
+      "venue": "Design, Automation & Test in Europe Conference & Exhibition (DATE 2020)",
+      "year": 2020
+    },
+    {
+      "title": "Variable precision multiplication for software-based neural networks",
+      "authors": "Richa Singh, Taylor Conroy, Patrick Schaumont",
+      "venue": "2020 IEEE High Performance Extreme Computing Conference (HPEC)",
+      "year": 2020
+    },
+    {
+      "title": "Verification of power-based side-channel leakage through simulation",
+      "authors": "Yuan Yao, Patrick Schaumont, Jasper Van Woudenberg, Cees-Bart Breunesse, Edgar Mateos Santillan, Steve Stecyk",
+      "venue": "2020 IEEE 63rd International Midwest Symposium on Circuits and Systems (MWSCAS)",
+      "year": 2020
+    },
+    {
+      "title": "Synthesis of Pipelined DSP Accelerators with Dynamic Scheduling",
+      "authors": "Patrick Schaumont, Bart Vanthournout, Ivo Bolsens, Hugo De Man",
+      "venue": "8th International Symposium on System Synthesis (ISSS 1995)",
+      "year": 1995
+    }
+  ],
+  "Berk Sunar": [
+    {
+      "title": "Revisiting JBShield: Breaking and Rebuilding Representation-Level Jailbreak Defenses",
+      "authors": "Kemal Derya, Berk Sunar",
+      "venue": "arXiv preprint arXiv:2605.03095",
+      "year": 2026
+    },
+    {
+      "title": "Binary Euclidean Algorithm",
+      "authors": "Berk Sunar",
+      "venue": "Encyclopedia of Cryptography, Security and Privacy",
+      "year": 2025
+    },
+    {
+      "title": "FAULT+PROBE: A Generic Rowhammer-Based Bit Recovery Attack",
+      "authors": "Kemal Derya, M. Caner Tol, Berk Sunar",
+      "venue": "Proceedings of the 20th ACM Asia Conference on Computer and Communications Security (AsiaCCS)",
+      "year": 2025
+    },
+    {
+      "title": "LeapFrog: The Rowhammer Instruction Skip Attack",
+      "authors": "Andrew J. Adiletta, M. Caner Tol, Kemal Derya, Berk Sunar, Saad Islam",
+      "venue": "2025 IEEE 10th European Symposium on Security and Privacy (EuroS&P)",
+      "year": 2025
+    },
+    {
+      "title": "Multiprecision Multiplication",
+      "authors": "Berk Sunar",
+      "venue": "Encyclopedia of Cryptography, Security and Privacy",
+      "year": 2025
+    },
+    {
+      "title": "Multiprecision Squaring",
+      "authors": "Berk Sunar",
+      "venue": "Encyclopedia of Cryptography, Security and Privacy",
+      "year": 2025
+    },
+    {
+      "title": "Non-Halting Queries: Exploiting Fixed Points in LLMs",
+      "authors": "Ghaith Hammouri, Kemal Derya, Berk Sunar",
+      "venue": "2025 IEEE Conference on Secure and Trustworthy Machine Learning (SaTML)",
+      "year": 2025
+    },
+    {
+      "title": "Rubber Mallet: A Study of High Frequency Localized Bit Flips and Their Impact on Security",
+      "authors": "Andrew J. Adiletta, Zane Weissman, Fatemeh Khojasteh Dana, Berk Sunar, Shahin Tajik",
+      "venue": "Fifth Workshop on DRAM Security (DRAMSec 2025)",
+      "year": 2025
+    },
+    {
+      "title": "Spill the Beans: Exploiting CPU Cache Side-Channels to Leak Tokens from Large Language Models",
+      "authors": "Andrew J. Adiletta, Berk Sunar",
+      "venue": "arXiv preprint arXiv:2505.00817",
+      "year": 2025
+    },
+    {
+      "title": "Super Suffixes: Bypassing Text Generation Alignment and Guard Models Simultaneously",
+      "authors": "A Adiletta, K Adiletta, K Derya, B Sunar",
+      "venue": "arXiv preprint arXiv:2512.11783",
+      "year": 2025
+    },
+    {
+      "title": "μRL: Discovering Transient Execution Vulnerabilities Using Reinforcement Learning",
+      "authors": "M. Caner Tol, Kemal Derya, Berk Sunar",
+      "venue": "arXiv preprint arXiv:2502.14307",
+      "year": 2025
+    },
+    {
+      "title": "Analysis of EM Fault Injection on Bit-Sliced Number Theoretic Transform Software in Dilithium",
+      "authors": "Richa Singh, Saad Islam, Berk Sunar, Patrick Schaumont",
+      "venue": "ACM Transactions on Embedded Computing Systems",
+      "year": 2024
+    },
+    {
+      "title": "Mayhem: Targeted Corruption of Register and Stack Variables",
+      "authors": "Andrew J. Adiletta, M. Caner Tol, Yarkın Doröz, Berk Sunar",
+      "venue": "Proceedings of the 19th ACM Asia Conference on Computer and Communications Security (AsiaCCS)",
+      "year": 2024
+    },
+    {
+      "title": "Microarchitectural Security of Firecracker VMM for Serverless Cloud Platforms",
+      "authors": "Zane Weissman, Thore Tiemann, Thomas Eisenbarth, Berk Sunar",
+      "venue": "20th International Conference on Information Systems Security (ICISS 2024)",
+      "year": 2024
+    },
+    {
+      "title": "ZeroLeak: Automated Side-Channel Patching in Source Code Using LLMs",
+      "authors": "M. Caner Tol, Berk Sunar",
+      "venue": "29th European Symposium on Research in Computer Security (ESORICS 2024), Part I",
+      "year": 2024
+    },
+    {
+      "title": "Don't Knock! Rowhammer at the Backdoor of DNN Models",
+      "authors": "M. Caner Tol, Saad Islam, Andrew J. Adiletta, Berk Sunar, Ziming Zhang",
+      "venue": "2023 53rd Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)",
+      "year": 2023
+    },
+    {
+      "title": "IOTLB-SC: An Accelerator-Independent Leakage Source in Modern Cloud Systems",
+      "authors": "Thore Tiemann, Zane Weissman, Thomas Eisenbarth, Berk Sunar",
+      "venue": "Proceedings of the 2023 ACM Asia Conference on Computer and Communications Security (AsiaCCS)",
+      "year": 2023
+    },
+    {
+      "title": "Jolt: Recovering TLS Signing Keys via Rowhammer Faults",
+      "authors": "Koksal Mus, Yarkın Doröz, M. Caner Tol, Kristi Rahman, Berk Sunar",
+      "venue": "2023 IEEE Symposium on Security and Privacy (SP)",
+      "year": 2023
+    },
+    {
+      "title": "Microarchitectural Security of AWS Firecracker VMM for Serverless Cloud Platforms",
+      "authors": "Zane Weissman, Thore Tiemann, Thomas Eisenbarth, Berk Sunar",
+      "venue": "arXiv preprint arXiv:2311.15999",
+      "year": 2023
+    },
+    {
+      "title": "Microarchitectural Vulnerabilities Introduced, Exploited, and Accelerated by Heterogeneous FPGA-CPU Platforms",
+      "authors": "Thore Tiemann, Zane Weissman, Thomas Eisenbarth, Berk Sunar",
+      "venue": "Security of FPGA-Accelerated Cloud Computing Environments",
+      "year": 2023
+    },
+    {
+      "title": "ZeroLeak: Using LLMs for Scalable and Cost-Effective Side-Channel Patching",
+      "authors": "M. Caner Tol, Berk Sunar",
+      "venue": "arXiv preprint arXiv:2308.13062",
+      "year": 2023
+    },
+    {
+      "title": "A signature correction attack on the post-quantum scheme dilithium",
+      "authors": "Saad Islam, Koksal Mus, Richa Singh, Patrick Schaumont, Berk Sunar",
+      "venue": "2022 IEEE 7th European Symposium on Security and Privacy (EuroS&P)",
+      "year": 2022
+    },
+    {
+      "title": "An End-to-End Analysis of EMFI on Bit-Sliced Post-Quantum Implementations",
+      "authors": "Richa Singh, Saad Islam, Berk Sunar, Patrick Schaumont",
+      "venue": "arXiv preprint arXiv:2204.06153",
+      "year": 2022
+    },
+    {
+      "title": "Multi-Message Multi-User Signature Aggregation",
+      "authors": "Jeffrey Hoffstein, Joseph H. Silverman, Berk Sunar, Yarkin Doröz",
+      "venue": "US Patent Application US20220385479A1",
+      "year": 2022
+    },
+    {
+      "title": "Signature Correction Attack on Dilithium Signature Scheme",
+      "authors": "Saad Islam, Koksal Mus, Richa Singh, Patrick Schaumont, Berk Sunar",
+      "venue": "2022 IEEE 7th European Symposium on Security and Privacy (EuroS&P)",
+      "year": 2022
+    },
+    {
+      "title": "Toward Realistic Backdoor Injection Attacks on DNNs using Rowhammer",
+      "authors": "M. Caner Tol, Saad Islam, Berk Sunar, Ziming Zhang",
+      "venue": "arXiv preprint arXiv:2110.07683",
+      "year": 2022
+    },
+    {
+      "title": "An Optimization Perspective on Realizing Backdoor Injection Attacks on Deep Neural Networks in Hardware",
+      "authors": "M. Caner Tol, Saad Islam, Berk Sunar, Ziming Zhang",
+      "venue": "arXiv preprint arXiv:2110.07683",
+      "year": 2021
+    },
+    {
+      "title": "FastSpec: Scalable Generation and Detection of Spectre Gadgets Using Neural Embeddings",
+      "authors": "M. Caner Tol, Berk Gülmezoglu, Koray Yurtseven, Berk Sunar",
+      "venue": "2021 IEEE European Symposium on Security and Privacy (EuroS&P)",
+      "year": 2021
+    },
+    {
+      "title": "Collaborative Research: SaTC: TTP: Medium: NextGenPQ: Post-quantum Schemes for Next Generation Applications",
+      "authors": "Berk Sunar",
+      "venue": "National Science Foundation (NSF) Award 2026913",
+      "year": 2020
+    },
+    {
+      "title": "CopyCat: Controlled Instruction-Level Attacks on Enclaves",
+      "authors": "Daniel Moghimi, Jo Van Bulck, Nadia Heninger, Frank Piessens, Berk Sunar",
+      "venue": "29th USENIX Security Symposium (USENIX Security 20)",
+      "year": 2020
+    },
+    {
+      "title": "Flattening NTRU for Evaluation-Key-Free Homomorphic Encryption",
+      "authors": "Yarkın Doröz, Berk Sunar",
+      "venue": "Journal of Mathematical Cryptology",
+      "year": 2020
+    },
+    {
+      "title": "Homomorphic Sorting With Better Scalability",
+      "authors": "Gizem S. Çetin, Erkay Savaş, Berk Sunar",
+      "venue": "IEEE Transactions on Parallel and Distributed Systems",
+      "year": 2020
+    },
+    {
+      "title": "LVI: Hijacking Transient Execution through Microarchitectural Load Value Injection",
+      "authors": "Jo Van Bulck, Daniel Moghimi, Michael Schwarz, Moritz Lipp, Marina Minkin, Daniel Genkin, Yuval Yarom, Berk Sunar, Daniel Gruss, Frank Piessens",
+      "venue": "2020 IEEE Symposium on Security and Privacy (SP)",
+      "year": 2020
+    },
+    {
+      "title": "Medusa: Microarchitectural Data Leakage via Automated Attack Synthesis",
+      "authors": "Daniel Moghimi, Moritz Lipp, Berk Sunar, Michael Schwarz",
+      "venue": "29th USENIX Security Symposium (USENIX Security 20)",
+      "year": 2020
+    },
+    {
+      "title": "MMSAT: A Scheme for Multimessage Multiuser Signature Aggregation",
+      "authors": "Yarkın Doröz, Jeffrey Hoffstein, Joseph H. Silverman, Berk Sunar",
+      "venue": "Cryptology ePrint Archive, Paper 2020/520",
+      "year": 2020
+    },
+    {
+      "title": "QuantumHammer: A Practical Hybrid Attack on the LUOV Signature Scheme",
+      "authors": "Koksal Mus, Saad Islam, Berk Sunar",
+      "venue": "Proceedings of the 2020 ACM SIGSAC Conference on Computer and Communications Security (CCS)",
+      "year": 2020
+    },
+    {
+      "title": "TPM-FAIL: TPM Meets Timing and Lattice Attacks",
+      "authors": "Daniel Moghimi, Berk Sunar, Thomas Eisenbarth, Nadia Heninger",
+      "venue": "29th USENIX Security Symposium (USENIX Security 20)",
+      "year": 2020
+    },
+    {
+      "title": "XLS: Accelerated HW Synthesis",
+      "authors": "W. Dai, Berk Sunar",
+      "venue": "Google XLS (Accelerated HW Synthesis) Project",
+      "year": 2020
+    }
+  ],
+  "Shahin Tajik": [
+    {
+      "title": "Chypnosis: Undervolting-based Static Side-channel Attacks",
+      "authors": "Kyle Mitard, Saleh Khalaj Monfared, Fatemeh Khojasteh Dana, Robert Dumitru, Yuval Yarom, Shahin Tajik",
+      "venue": "2026 IEEE Symposium on Security and Privacy (SP)",
+      "year": 2026
+    },
+    {
+      "title": "Developing a Portable Triggering System (PTS) for Particle Detection",
+      "authors": "Noah Omordia",
+      "venue": "Worcester Polytechnic Institute Major Qualifying Project (MQP)",
+      "year": 2026
+    },
+    {
+      "title": "Formally Verified Real-Time Safety Constraint Layers for Embodied Autonomous Agents",
+      "authors": "Sophia Kim, Mila Rodriguez, Shahin Tajik",
+      "venue": "ResearchGate preprint",
+      "year": 2026
+    },
+    {
+      "title": "GlitchSnipe: Toward Localized Voltage Fault Attacks",
+      "authors": "FK Dana, SK Monfared, H Okhravi, S Tajik",
+      "venue": "Cryptology ePrint Archive",
+      "year": 2026
+    },
+    {
+      "title": "Impedance Side-Channel Analysis of ASICs: An Investigation of Measurement Factors",
+      "authors": "Behnam Fadaeinia, Shahin Tajik, Amir Moradi",
+      "venue": "Journal of Electronic Testing",
+      "year": 2026
+    },
+    {
+      "title": "MLIR-Based Heterogeneous Hardware Adaptation: Compiler-Level Cross-Platform Optimization for Edge AI Accelerators Across Android NPU, iOS CoreML, RKNN, and Raspberry Pi Backends",
+      "authors": "Nina Mehta, Sophia Kim, Shahin Tajik",
+      "venue": "ResearchGate preprint",
+      "year": 2026
+    },
+    {
+      "title": "Phoneme-Level Detection and Mitigation of Adversarial Audio for Smart-Home LLM Agents",
+      "authors": "Daniel Clark, Shahin Tajik",
+      "venue": "ResearchGate preprint",
+      "year": 2026
+    },
+    {
+      "title": "Real-Time Intra-Procedural SPECT/CT Fusion for LBBP Lead Placement Guidance",
+      "authors": "Mila Rodriguez, Zoe Nakamura, Shahin Tajik",
+      "venue": "ResearchGate preprint",
+      "year": 2026
+    },
+    {
+      "title": "Timing and Memory Telemetry on GPUs for AI Governance",
+      "authors": "Saleh Khalaj Monfared, Fatemeh Ganji, Daniel E. Holcomb, Shahin Tajik",
+      "venue": "arXiv preprint arXiv:2602.09369",
+      "year": 2026
+    },
+    {
+      "title": "Apparatus for protecting against optical probing attacks",
+      "authors": "Mark M. Tehranipoor, Navid Asadi-Zanjani, Mir Tanjidur Rahman, Shahin Tajik",
+      "venue": "US Patent US12235959B1",
+      "year": 2025
+    },
+    {
+      "title": "ChipletQuake: On-Die Digital Impedance Sensing for Chiplet and Interposer Verification",
+      "authors": "Saleh Khalaj Monfared, Maryam Saadat Safa, Shahin Tajik",
+      "venue": "Sensors",
+      "year": 2025
+    },
+    {
+      "title": "FDTC 2025",
+      "authors": "FDTC 2025 Program Committee",
+      "venue": "2025 Workshop on Fault Diagnosis and Tolerance in Cryptography (FDTC)",
+      "year": 2025
+    },
+    {
+      "title": "Garblet: Multi-party computation for protecting chiplet-based systems",
+      "authors": "Mohammad Hashemi, Shahin Tajik, Fatemeh Ganji",
+      "venue": "2025 IEEE 43rd VLSI Test Symposium (VTS)",
+      "year": 2025
+    },
+    {
+      "title": "Hardware Moving Target Defenses against Post-Silicon Side-Channel Leakages",
+      "authors": "Saleh Khalaj Monfared, Kyle Mitard, Domenic Forte, Shahin Tajik",
+      "venue": "Government Microcircuit Applications and Critical Technology Conference (GOMACTech 2025)",
+      "year": 2025
+    },
+    {
+      "title": "IC Backside Tamper Detection Using Impedance Sensing",
+      "authors": "Tahoura Mosavirik, Shahin Tajik",
+      "venue": "IEEE Access",
+      "year": 2025
+    },
+    {
+      "title": "Logical Maneuvers: Detecting and Mitigating Adversarial Hardware Faults in Space",
+      "authors": "Fatemeh Khojasteh Dana, Saleh Khalaj Monfared, Shahin Tajik",
+      "venue": "Workshop on Security of Space and Satellite Systems (SpaceSec 2025)",
+      "year": 2025
+    },
+    {
+      "title": "Methods for Verifying Integrity and Authenticity of a Printed Circuit Board",
+      "authors": "Tahoura Mosavirik, Fatemeh Ganji, Patrick Schaumont, Shahin Tajik, Paul L. Martyak Jr., Michael Thow",
+      "venue": "US Patent Application US20250180628A1",
+      "year": 2025
+    },
+    {
+      "title": "Near-Field Microwave Sensing for Chip-Level Tamper Detection",
+      "authors": "Maryam Saadat Safa, Shahin Tajik",
+      "venue": "Sensors",
+      "year": 2025
+    },
+    {
+      "title": "Rubber Mallet: A Study of High Frequency Localized Bit Flips and Their Impact on Security",
+      "authors": "Andrew J. Adiletta, Zane Weissman, Fatemeh Khojasteh Dana, Berk Sunar, Shahin Tajik",
+      "venue": "Fifth Workshop on DRAM Security (DRAMSec 2025)",
+      "year": 2025
+    },
+    {
+      "title": "Sense and React: Self-Destructive Polymorphic Mechanism Against Voltage Tampered Active Physical Attacks",
+      "authors": "Sourav Roy, Andrew Cannon, Luis de la Mata, Rabin Yu Acharya, Tasnuva Farheen, Shahin Tajik, Domenic Forte",
+      "venue": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+      "year": 2025
+    },
+    {
+      "title": "Swarm in EM Hay: Particle Swarm-guided Probe Placement for EM SCA",
+      "authors": "Dev Mehta, Seyedmohammad Nouraniboosjin, Maryam S. Safa, Shahin Tajik, Fatemeh Ganji",
+      "venue": "Cryptology ePrint Archive, Paper 2025/2244",
+      "year": 2025
+    },
+    {
+      "title": "There's Waldo: PCB Tamper Forensic Analysis Using Explainable AI on Impedance Signatures",
+      "authors": "Maryam Saadat Safa, Seyedmohammad Nouraniboosjin, Fatemeh Ganji, Shahin Tajik",
+      "venue": "2025 IEEE International Symposium on Electromagnetic Compatibility, Signal & Power Integrity (EMC+SIPI)",
+      "year": 2025
+    },
+    {
+      "title": "1/0 shades of UC: photonic side-channel analysis of universal circuits",
+      "authors": "Dev M. Mehta, Mohammad Hashemi, Domenic Forte, Shahin Tajik, Fatemeh Ganji",
+      "venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+      "year": 2024
+    },
+    {
+      "title": "Amnesiac memory: a self-destructive polymorphic mechanism against cold boot data remanence attack",
+      "authors": "Tasnuva Farheen, Sourav Roy, Andrew Cannon, Jia Di, Shahin Tajik, Domenic Forte",
+      "venue": "Proceedings of the 2024 Great Lakes Symposium on VLSI (GLSVLSI 2024)",
+      "year": 2024
+    },
+    {
+      "title": "BackMon: IC backside tamper detection using on-chip impedance monitoring",
+      "authors": "Tahoura Mosavirik, Shahin Tajik",
+      "venue": "Proceedings of the 2024 Workshop on Attacks and Solutions in Hardware Security (ASHES 2024)",
+      "year": 2024
+    },
+    {
+      "title": "Calibratable Polymorphic Temperature Sensor for Detecting Fault Injection and Side-Channel Attacks",
+      "authors": "Tasnuva Farheen, Sourav Roy, Jia Di, Shahin Tajik, Domenic Forte",
+      "venue": "2024 IEEE International Symposium on Hardware Oriented Security and Trust (HOST)",
+      "year": 2024
+    },
+    {
+      "title": "CAREER: Toward Power Delivery Network-aware Hardware Security",
+      "authors": "Shahin Tajik",
+      "venue": "National Science Foundation (NSF) Award 2338069",
+      "year": 2024
+    },
+    {
+      "title": "Comparative study of e-beam and optical probing approaches in attacking the ics",
+      "authors": "Elham Amini, Jörg Jatzkowski, Tuba Kiyan, Lars Renkes, Thilo Krachenfels, Shahin Tajik, Christian Boit, Frank Altmann, Sebastian Brand, Jean-Pierre Seifert",
+      "venue": "Journal of Failure Analysis and Prevention",
+      "year": 2024
+    },
+    {
+      "title": "Evaluating vulnerability of chiplet-based systems to contactless probing techniques",
+      "authors": "Aleksa Deric, Kyle Mitard, Shahin Tajik, Daniel E. Holcomb",
+      "venue": "2024 IEEE International Test Conference (ITC)",
+      "year": 2024
+    },
+    {
+      "title": "FaultyGarble: fault attack on secure multiparty neural network inference",
+      "authors": "Mohammad Hashemi, Dev Mehta, Kyle Mitard, Shahin Tajik, Fatemeh Ganji",
+      "venue": "2024 Workshop on Fault Diagnosis and Tolerance in Cryptography (FDTC)",
+      "year": 2024
+    },
+    {
+      "title": "FDTC 2024",
+      "authors": "FDTC 2024 Program Committee",
+      "venue": "2024 Workshop on Fault Diagnosis and Tolerance in Cryptography (FDTC)",
+      "year": 2024
+    },
+    {
+      "title": "Laserescape: Detecting and mitigating optical probing attacks",
+      "authors": "Saleh Khalaj Monfared, Kyle Mitard, Andrew Cannon, Domenic Forte, Shahin Tajik",
+      "venue": "2024 IEEE/ACM International Conference on Computer-Aided Design (ICCAD)",
+      "year": 2024
+    },
+    {
+      "title": "Parasitic circus: On the feasibility of golden-free PCB verification",
+      "authors": "Maryam Saadat-Safa, Patrick Schaumont, Shahin Tajik",
+      "venue": "2024 IEEE International Symposium on the Physical and Failure Analysis of Integrated Circuits (IPFA)",
+      "year": 2024
+    },
+    {
+      "title": "Randohm: Mitigating impedance side-channel attacks using randomized circuit configurations",
+      "authors": "Saleh Khalaj Monfared, Domenic Forte, Shahin Tajik",
+      "venue": "2024 IEEE/ACM International Conference on Computer-Aided Design (ICCAD)",
+      "year": 2024
+    },
+    {
+      "title": "Systems and methods for laser probing for hardware trojan detection",
+      "authors": "Mark M. Tehranipoor, Andrew Stern, Shahin Tajik, Farimah Farahmandi",
+      "venue": "US Patent US12105858B2",
+      "year": 2024
+    },
+    {
+      "title": "Travel: NSF Student Travel Grant for 2024 New England Hardware Security Day (NEHWS2024)",
+      "authors": "Shahin Tajik",
+      "venue": "National Science Foundation (NSF) Award 2420415",
+      "year": 2024
+    },
+    {
+      "title": "A survey and perspective on artificial intelligence for security-aware electronic design automation",
+      "authors": "David Selasi Koblah, Rabin Yu Acharya, Daniel Capecci, Olivia P. Dizon-Paradis, Shahin Tajik, Fatemeh Ganji, Damon L. Woodard, Domenic Forte",
+      "venue": "ACM Transactions on Design Automation of Electronic Systems",
+      "year": 2023
+    },
+    {
+      "title": "A twofold clock and voltage-based detection method for laser logic state imaging attack",
+      "authors": "Tasnuva Farheen, Sourav Roy, Shahin Tajik, Domenic Forte",
+      "venue": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+      "year": 2023
+    },
+    {
+      "title": "Counterfeit chip detection using scattering parameter analysis",
+      "authors": "Maryam Saadat Safa, Tahoura Mosavirik, Shahin Tajik",
+      "venue": "2023 26th International Symposium on Design and Diagnostics of Electronic Circuits and Systems (DDECS)",
+      "year": 2023
+    },
+    {
+      "title": "Electronic tampering detection",
+      "authors": "S Tajik, P Schaumont, T Mosavirik",
+      "venue": "US Patent App. 18/209,785",
+      "year": 2023
+    },
+    {
+      "title": "Electrons vs. photons: Assessment of circuit's activity requirements for e-beam and optical probing attacks",
+      "authors": "Elham Amini, Tuba Kiyan, Lars Renkes, Thilo Krachenfels, Christian Boit, Jean-Pierre Seifert, Jörg Jatzkowski, Frank Altmann, Sebastian Brand, Shahin Tajik",
+      "venue": "Proceedings of the 49th International Symposium for Testing and Failure Analysis (ISTFA 2023)",
+      "year": 2023
+    },
+    {
+      "title": "FDTC 2023",
+      "authors": "FDTC 2023 Program Committee",
+      "venue": "2023 Workshop on Fault Diagnosis and Tolerance in Cryptography (FDTC)",
+      "year": 2023
+    },
+    {
+      "title": "Hardness amplification of physical unclonable functions (PUFS)",
+      "authors": "Fatemeh Ganji, Shahin Tajik, Jean-Pierre Seifert, Domenic Forte, Mark M. Tehranipoor",
+      "venue": "US Patent US11799673B2",
+      "year": 2023
+    },
+    {
+      "title": "Impedanceverif: On-chip impedance sensing for system-level tampering detection",
+      "authors": "Tahoura Mosavirik, Patrick Schaumont, Shahin Tajik",
+      "venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+      "year": 2023
+    },
+    {
+      "title": "LAT-UP: Exposing layout-level analog hardware Trojans using contactless optical probing",
+      "authors": "Sajjad Parvin, Mehran Goli, Thilo Krachenfels, Shahin Tajik, Jean-Pierre Seifert, Frank Sill Torres, Rolf Drechsler",
+      "venue": "2023 IEEE Computer Society Annual Symposium on VLSI (ISVLSI)",
+      "year": 2023
+    },
+    {
+      "title": "Leakyohm: Secret bits extraction using impedance analysis",
+      "authors": "Saleh Khalaj Monfared, Tahoura Mosavirik, Shahin Tajik",
+      "venue": "Proceedings of the 2023 ACM SIGSAC Conference on Computer and Communications Security (CCS 2023)",
+      "year": 2023
+    },
+    {
+      "title": "Polymorphic sensor to detect laser logic state imaging attack",
+      "authors": "Sourav Roy, Shahin Tajik, Domenic Forte",
+      "venue": "2023 24th International Symposium on Quality Electronic Design (ISQED)",
+      "year": 2023
+    },
+    {
+      "title": "Programmable ro (pro): A multipurpose countermeasure against side-channel and fault injection attack",
+      "authors": "Yuan Yao, Pantea Kiaei, Richa Singh, Shahin Tajik, Patrick Schaumont",
+      "venue": "Security of FPGA-Accelerated Cloud Computing Environments",
+      "year": 2023
+    },
+    {
+      "title": "Protection against physical attacks through self-destructive polymorphic latch",
+      "authors": "Andrew Cannon, Tasnuva Farheen, Sourav Roy, Shahin Tajik, Domenic Forte",
+      "venue": "2023 IEEE/ACM International Conference on Computer-Aided Design (ICCAD)",
+      "year": 2023
+    },
+    {
+      "title": "Silicon echoes: Non-invasive trojan and tamper detection using frequency-selective impedance analysis",
+      "authors": "Tahoura Mosavirik, Saleh Khalaj Monfared, Maryam Saadat-Safa, Shahin Tajik",
+      "venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+      "year": 2023
+    },
+    {
+      "title": "Spred: Spatially distributed laser fault injection resilient design",
+      "authors": "Tasnuva Farheen, Shahin Tajik, Domenic Forte",
+      "venue": "2023 24th International Symposium on Quality Electronic Design (ISQED)",
+      "year": 2023
+    },
+    {
+      "title": "Trojan Awakener: Detecting Dormant Malicious Hardware Using Laser Logic State Imaging (Extended Version)",
+      "authors": "Thilo Krachenfels, Jean-Pierre Seifert, Shahin Tajik",
+      "venue": "Journal of Cryptographic Engineering",
+      "year": 2023
+    },
+    {
+      "title": "Artificial neural networks and fault injection attacks",
+      "authors": "Shahin Tajik, Fatemeh Ganji",
+      "venue": "Security and Artificial Intelligence: A Crossdisciplinary Approach",
+      "year": 2022
+    },
+    {
+      "title": "Collaborative Research: SaTC: CORE: Small: ERADICATOR: Techniques for Laser Assisted Side-Channel Attack Monitor & Response",
+      "authors": "Shahin Tajik",
+      "venue": "National Science Foundation (NSF) Award 2150123",
+      "year": 2022
+    },
+    {
+      "title": "FDTC 2022",
+      "authors": "FDTC 2022 Program Committee",
+      "venue": "2022 Workshop on Fault Diagnosis and Tolerance in Cryptography (FDTC)",
+      "year": 2022
+    },
+    {
+      "title": "Hardware moving target defenses against physical attacks: Design challenges and opportunities",
+      "authors": "David Selasi Koblah, Fatemeh Ganji, Domenic Forte, Shahin Tajik",
+      "venue": "Proceedings of the 9th ACM Workshop on Moving Target Defense (MTD 2022)",
+      "year": 2022
+    },
+    {
+      "title": "Physically unclonable functions and ai: Two decades of marriage",
+      "authors": "Fatemeh Ganji, Shahin Tajik",
+      "venue": "Security and Artificial Intelligence: A Crossdisciplinary Approach",
+      "year": 2022
+    },
+    {
+      "title": "Scatterverif: Verification of electronic boards using reflection response of power distribution network",
+      "authors": "Tahoura Mosavirik, Fatemeh Ganji, Patrick Schaumont, Shahin Tajik",
+      "venue": "ACM Journal on Emerging Technologies in Computing Systems",
+      "year": 2022
+    },
+    {
+      "title": "Self-timed sensors for detecting static optical side channel attacks",
+      "authors": "Sourav Roy, Tasnuva Farheen, Shahin Tajik, Domenic Forte",
+      "venue": "2022 23rd International Symposium on Quality Electronic Design (ISQED)",
+      "year": 2022
+    },
+    {
+      "title": "SPREAD: Spatially Distributed Laser Fault Injection Resilient Attack Detector",
+      "authors": "Tasnuva Farheen, Shahin Tajik, Domenic Forte",
+      "venue": "International Symposium for Testing and Failure Analysis (ISTFA 2022)",
+      "year": 2022
+    },
+    {
+      "title": "TAMED: transitional approaches for LFI resilient state machine encoding",
+      "authors": "Muhtadi Choudhury, Minyan Gao, Shahin Tajik, Domenic Forte",
+      "venue": "2022 IEEE International Test Conference (ITC)",
+      "year": 2022
+    },
+    {
+      "title": "The Technological Arms Race in Hardware Security",
+      "authors": "Shahin Tajik, Patrick Schaumont",
+      "venue": "2022 IEEE International Symposium on Electromagnetic Compatibility, Signal & Power Integrity (EMC+SIPI), Special Session on Hardware Security for a Smart Society",
+      "year": 2022
+    },
+    {
+      "title": "Toward optical probing resistant circuits: A comparison of logic styles and circuit design techniques",
+      "authors": "Sajjad Parvin, Thilo Krachenfels, Shahin Tajik, Jean-Pierre Seifert, Frank Sill Torres, Rolf Drechsler",
+      "venue": "2022 27th Asia and South Pacific Design Automation Conference (ASP-DAC)",
+      "year": 2022
+    },
+    {
+      "title": "Automatic Extraction of Secrets from the Transistor Jungle Using Laser-Assisted Side-Channel Attacks",
+      "authors": "Thilo Krachenfels, Tuba Kiyan, Shahin Tajik, Jean-Pierre Seifert",
+      "venue": "30th USENIX Security Symposium (USENIX Security 21)",
+      "year": 2021
+    },
+    {
+      "title": "Concealing-gate: Optical contactless probing resilient design",
+      "authors": "M. Tanjidur Rahman, Nusrat Farzana Dipu, Dhwani Mehta, Shahin Tajik, Mark Tehranipoor, Navid Asadizanjani",
+      "venue": "ACM Journal on Emerging Technologies in Computing Systems",
+      "year": 2021
+    },
+    {
+      "title": "Images from On-Chip Memories Captured Using the Laser-Assisted Side-Channel Techniques LLSI and TLS",
+      "authors": "Thilo Krachenfels, Tuba Kiyan, Shahin Tajik, Jean-Pierre Seifert",
+      "venue": "DepositOnce, Technische Universität Berlin",
+      "year": 2021
+    },
+    {
+      "title": "Patron: A pragmatic approach for encoding laser fault injection resistant fsms",
+      "authors": "Muhtadi Choudhury, Domenic Forte, Shahin Tajik",
+      "venue": "2021 Design, Automation & Test in Europe Conference & Exhibition (DATE)",
+      "year": 2021
+    },
+    {
+      "title": "Real-world snapshots vs. theory: Questioning the t-probing security model",
+      "authors": "Thilo Krachenfels, Fatemeh Ganji, Amir Moradi, Shahin Tajik, Jean-Pierre Seifert",
+      "venue": "2021 IEEE Symposium on Security and Privacy (SP)",
+      "year": 2021
+    },
+    {
+      "title": "Rock'n'roll PUFs: Crafting provably secure PUFs from less secure ones (extended version)",
+      "authors": "Fatemeh Ganji, Shahin Tajik, Pascal Stauss, Jean-Pierre Seifert, Mark M. Tehranipoor, Domenic Forte",
+      "venue": "Journal of Cryptographic Engineering",
+      "year": 2021
+    },
+    {
+      "title": "SPARSE: Spatially Aware LFI Resilient State Machine Encoding",
+      "authors": "Muhtadi Choudhury, Shahin Tajik, Domenic Forte",
+      "venue": "10th International Workshop on Hardware and Architectural Support for Security and Privacy (HASP 2021)",
+      "year": 2021
+    },
+    {
+      "title": "Special session: Physical attacks through the chip backside: Threats, challenges, and opportunities",
+      "authors": "Elham Amini, Kai Bartels, Christian Boit, Marius Eggert, Norbert Herfurth, Tuba Kiyan, Thilo Krachenfels, Jean-Pierre Seifert, Shahin Tajik",
+      "venue": "2021 IEEE 39th VLSI Test Symposium (VTS)",
+      "year": 2021
+    },
+    {
+      "title": "Trojan awakener: Detecting dormant malicious hardware using laser logic state imaging",
+      "authors": "Thilo Krachenfels, Jean-Pierre Seifert, Shahin Tajik",
+      "venue": "Proceedings of the 5th Workshop on Attacks and Solutions in Hardware Security (ASHES 2021)",
+      "year": 2021
+    },
+    {
+      "title": "Defense-in-depth: A recipe for logic locking to prevail",
+      "authors": "M. Tanjidur Rahman, M. Sazadur Rahman, Huanyu Wang, Shahin Tajik, Waleed Khalil, Farimah Farahmandi, Domenic Forte, Navid Asadizanjani, Mark Tehranipoor",
+      "venue": "Integration",
+      "year": 2020
+    },
+    {
+      "title": "FDTC 2020",
+      "authors": "FDTC 2020 Program Committee",
+      "venue": "2020 Workshop on Fault Diagnosis and Tolerance in Cryptography (FDTC)",
+      "year": 2020
+    },
+    {
+      "title": "Pitfalls in machine learning-based adversary modeling for hardware systems",
+      "authors": "Fatemeh Ganji, Sarah Amir, Shahin Tajik, Domenic Forte, Jean-Pierre Seifert",
+      "venue": "2020 Design, Automation & Test in Europe Conference & Exhibition (DATE)",
+      "year": 2020
+    },
+    {
+      "title": "SPARTA-COTS: A laser probing approach for sequential trojan detection in COTS integrated circuits",
+      "authors": "Andrew Stern, Dhwani Mehta, Shahin Tajik, Ujjwal Guin, Farimah Farahmandi, Mark Tehranipoor",
+      "venue": "2020 IEEE Physical Assurance and Inspection of Electronics (PAINE)",
+      "year": 2020
+    },
+    {
+      "title": "Sparta: A laser probing approach for trojan detection",
+      "authors": "Andrew Stern, Dhwani Mehta, Shahin Tajik, Farimah Farahmandi, Mark Tehranipoor",
+      "venue": "2020 IEEE International Test Conference (ITC)",
+      "year": 2020
+    },
+    {
+      "title": "The key is left under the mat: On the inappropriate security assumption of logic locking schemes",
+      "authors": "M. Tanjidur Rahman, Shahin Tajik, M. Sazadur Rahman, Mark Tehranipoor, Navid Asadizanjani",
+      "venue": "2020 IEEE International Symposium on Hardware Oriented Security and Trust (HOST)",
+      "year": 2020
+    },
+    {
+      "title": "Trust assessment for electronic components using laser and emission-based microscopy",
+      "authors": "Andrew Stern, Jason Vosatka, Shahin Tajik, Farimah Farahmandi, Mark Tehranipoor",
+      "venue": "2020 IEEE Research and Applications of Photonics in Defense Conference (RAPID)",
+      "year": 2020
+    }
+  ]
+}

@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "generate-publications": "python3 scripts/generate-faculty-publications.py",
+    "verify-publications": "python3 scripts/verify-faculty-publications.py",
+    "prebuild": "npm run generate-publications && npm run verify-publications",
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "build": "docusaurus build",
