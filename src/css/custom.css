@@ -413,3 +413,16 @@
 .custom-dot-list-style {
     bottom: 10px;
 }
+/* Locally rendered Google Scholar publication records. */
+.faculty-publication {
+  margin-bottom: 1rem;
+}
+
+.faculty-publication__title {
+  font-weight: 600;
+}
+
+.faculty-publication__details {
+  color: var(--ifm-color-emphasis-700);
+  font-style: italic;
+}
