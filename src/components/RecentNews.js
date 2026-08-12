@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Link from '@docusaurus/Link'; // Import Link
 import styles from './RecentNews.module.css'; // We'll create this CSS module later
 
@@ -22,9 +22,6 @@ function parseFrontmatter(fileContent) {
 }
 
 function NewsItem({ title, date, description, slug, summary }) {
-  // Debug log to see what's happening with dates
-  console.log(`NewsItem received: title=${title}, date=${date}, slug=${slug}, type of date=${typeof date}`);
-  
   let dateInputString = '';
   if (date) {
     if (date instanceof Date) {
@@ -34,13 +31,11 @@ function NewsItem({ title, date, description, slug, summary }) {
         const month = String(date.getUTCMonth() + 1).padStart(2, '0');
         const day = String(date.getUTCDate()).padStart(2, '0');
         dateInputString = `${year}-${month}-${day}`;
-        console.log(`Date object converted to string using UTC: ${dateInputString}`);
       } else {
         console.warn("Received an invalid Date object for prop 'date':", date);
       }
     } else if (typeof date === 'string') {
       dateInputString = date;
-      console.log(`Date string used directly: ${dateInputString}`);
     } else {
       console.warn("Received non-string/non-Date type for prop 'date':", date);
     }
@@ -104,9 +99,7 @@ function NewsItem({ title, date, description, slug, summary }) {
 }
 
 export default function RecentNews({ maxItems = 3 }) {
-  const [newsItems, setNewsItems] = useState([]);
-
-  useEffect(() => {
+  const newsItems = (() => {
     // Dynamically import all .md files from the news directory
     // './news' assumes RecentNews.js is in src/components and news is in src/news
     // We need to adjust the path if news/ is at the root.
@@ -123,8 +116,7 @@ export default function RecentNews({ maxItems = 3 }) {
         r = require.context('../../news', false, /\.md$/);
     } catch (e) {
         console.error("Could not find news directory. Ensure 'news' directory exists at the project root.", e);
-        setNewsItems([]);
-        return;
+        return [];
     }
 
     const loadedNews = r.keys().map(fileName => {
@@ -173,8 +165,8 @@ export default function RecentNews({ maxItems = 3 }) {
 
     loadedNews.sort((a, b) => new Date(b.date) - new Date(a.date));
 
-    setNewsItems(loadedNews.slice(0, maxItems));
-  }, [maxItems]);
+    return loadedNews.slice(0, maxItems);
+  })();
 
   if (!newsItems || newsItems.length === 0) {
     return <p>No recent news to display.</p>;
@@ -190,4 +182,4 @@ export default function RecentNews({ maxItems = 3 }) {
       ))}
     </div>
   );
-} 
+}
