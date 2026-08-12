@@ -75,9 +75,9 @@ export default function Home() {
       <main>
         <LabDescription />
         <HomepageFeatures />
-        <div className="container section-padding-top--lg"> {/* Added Docusaurus class for spacing */}
+        <section className="container section-padding-top--lg" aria-label="Latest lab news">
           <RecentNews maxItems={4} />
-        </div>
+        </section>
         <SponsorBanner />
       </main>
     </Layout>
