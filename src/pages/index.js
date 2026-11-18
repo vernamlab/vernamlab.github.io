@@ -1,54 +1,34 @@
-import clsx from 'clsx';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-// Make sure Slider is imported correctly
-import SimpleSlider from '@site/src/components/SimpleSlider'; // Assuming you save it in src/components
-
-// Your original Docusaurus / other components
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import RecentNews from '@site/src/components/RecentNews';
 import SponsorBanner from '@site/src/components/SponsorBanner';
 import Heading from '@theme/Heading';
 
-import styles from './index.module.css'; // This should contain .heroBanner, .heroContainer, etc.
-
-
+import styles from './index.module.css';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
+  const photo = useBaseUrl('/img/IMG_1508.jpg');
 
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3500, // Slightly adjusted speed
-    fade: true,          // Fade effect often looks good for hero banners
-    cssEase: 'linear',   // For fade
-    adaptiveHeight: false, // Use with caution for a hero banner, can cause layout shifts.
-                           // Prefer a fixed aspect ratio or height defined by CSS for the hero area.
-  };
   return (
-    // Use the original .heroBanner class as the main container
-    // This will provide the padding and relative positioning context
-      <SimpleSlider />
-
-    // <div className={clsx('hero hero--primary', styles.heroBanner)}> {/* Use clsx for multiple classes if needed */}
-
-    //   <div className={clsx('container', styles.heroContainer)}> {/* Docusaurus 'container' class for centering + your styles */}
-    //     <Heading as="h1" className="hero__title">
-    //       {siteConfig.title}
-    //     </Heading>
-    //     <p className="hero__subtitle">{siteConfig.tagline}</p>
-    //     {/* Or if you want static text different from siteConfig: */}
-    //     {/*
-    //     <Heading as="h1" className={clsx("hero__title", styles.heroTitleText)}>Vernam Lab</Heading>
-    //     <p className={clsx("hero__subtitle", styles.heroSubtitleText)}>Worcester Polytechnic Institute</p>
-    //     */}
-    //   </div>
-    // </div>
+    <header className={styles.hero}>
+      <div className={styles.heroIntro}>
+        <Heading as="h1" className={styles.heroTitle}>
+          {siteConfig.title}
+        </Heading>
+        <p className={styles.heroSubtitle}>{siteConfig.tagline}</p>
+      </div>
+      <img
+        className={styles.heroPhoto}
+        src={photo}
+        width={4032}
+        height={2268}
+        alt="Vernam Lab members pose together in a park in front of a gazebo and colorful autumn trees."
+        fetchPriority="high"
+      />
+    </header>
   );
 }
 
