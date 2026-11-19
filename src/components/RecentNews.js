@@ -21,7 +21,7 @@ function parseFrontmatter(fileContent) {
   return { frontmatter, content: contentBody }; // Return contentBody
 }
 
-function NewsItem({ title, date, description, slug, summary }) {
+function NewsItem({ title, date, description, slug, summary, featured }) {
   let dateInputString = '';
   if (date) {
     if (date instanceof Date) {
@@ -92,7 +92,11 @@ function NewsItem({ title, date, description, slug, summary }) {
       </h3>
       <p className={styles.newsDate}>{displayDateStr}</p>
       {/* Render summary if available, otherwise description (if any) */}
-      {summary && <p className={styles.newsSummary}>{summary}</p>}
+      {summary && (
+        <p className={styles.newsSummary}>
+          {featured ? <Link to={newsUrl}>{summary}</Link> : summary}
+        </p>
+      )}
       {!summary && description && <p>{description}</p>}
     </div>
   );
@@ -160,10 +164,14 @@ export default function RecentNews({ maxItems = 3 }) {
         slug: finalSlug,
         ...frontmatter,
         summary: summary, // Assign the determined summary
+        featured: frontmatter.featured === true || frontmatter.featured === 'true',
       };
     }).filter(item => item !== null);
 
-    loadedNews.sort((a, b) => new Date(b.date) - new Date(a.date));
+    loadedNews.sort((a, b) => {
+      const featuredOrder = Number(b.featured) - Number(a.featured);
+      return featuredOrder || new Date(b.date) - new Date(a.date);
+    });
 
     return loadedNews.slice(0, maxItems);
   })();
