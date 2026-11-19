@@ -168,6 +168,11 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {
+            href: 'https://www.youtube.com/@VernamLab',
+            label: 'YouTube',
+            position: 'right',
+          },
         ],
       },
       footer: {
