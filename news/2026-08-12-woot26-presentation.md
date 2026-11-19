@@ -1,6 +1,7 @@
 ---
 title: 'Swarm in EM Hay Presented at WOOT 2026'
 date: 2026-08-12
+event_date: '2026-08-10'
 authors: ['vernamlab']
 tags: [publication, conference, presentation]
 hide_table_of_contents: true

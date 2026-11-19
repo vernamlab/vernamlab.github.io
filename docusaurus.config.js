@@ -82,6 +82,14 @@ const config = {
         blogTitle: 'Lab News',
         blogDescription: 'Latest news and updates from the lab',
         feedOptions: { type: [] },
+        processBlogPosts: ({blogPosts}) => {
+          const sortTime = ({date, frontMatter}) => {
+            const eventTime = Date.parse(String(frontMatter.event_date ?? ''));
+            return Number.isNaN(eventTime) ? date.getTime() : eventTime;
+          };
+
+          return blogPosts.sort((a, b) => sortTime(b.metadata) - sortTime(a.metadata));
+        },
         editUrl:
           'https://github.com/vernamlab/vernamlab.github.io/tree/dev/',
       },
@@ -149,6 +157,7 @@ const config = {
           {to: '/docs/publications', label: 'Publications', position: 'right'},
           {to: '/docs/projects', label: 'Projects', position: 'right'},
           {to: '/blog', label: 'Blog', position: 'right'},
+          {to: '/news', label: 'News', position: 'right'},
           {
             to: '/docs/join-us',
             label: 'Join Us',
