@@ -37,6 +37,11 @@
   --ifm-navbar-link-active-color: #f0f0f0;
 }
 
+/* Match the author name size in the News listing. */
+.plugin-id-news.blog-list-page main article > header > h2 {
+  font-size: var(--ifm-h4-font-size);
+}
+
 .sponsor-logos {
   display: flex;
   flex-wrap: wrap;
