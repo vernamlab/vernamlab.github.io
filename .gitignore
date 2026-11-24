@@ -7,6 +7,7 @@
 # Generated files
 .docusaurus
 .cache-loader
+/static/beast-documentation/
 
 # Misc
 .DS_Store

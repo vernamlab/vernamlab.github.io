@@ -281,6 +281,19 @@
   }
 }
 
+/* Keep all links visible between the mobile menu and the full-width navbar. */
+@media (min-width: 997px) and (max-width: 1230px) {
+  .navbar__items--right > .navbar__item {
+    padding-inline: 0.3rem;
+  }
+
+  .navbar__items--right > .navbar__beast-documentation {
+    max-inline-size: 9rem;
+    text-align: center;
+    line-height: 1.2;
+  }
+}
+
 /* Mobile Navbar Color Fixes */
 .navbar-sidebar { /* Common class for the mobile menu panel */
   background-color: var(--ifm-navbar-background-color) !important;
