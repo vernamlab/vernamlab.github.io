@@ -15,7 +15,7 @@ jobs:
     name: Build Docusaurus
     runs-on: ubuntu-latest
     env:
-      BEAST_DOCUMENTATION_ENABLED: 'false'
+      BEAST_DOCUMENTATION_ENABLED: 'true'
     steps:
       - uses: actions/checkout@v4
         with:
@@ -35,7 +35,7 @@ jobs:
         run: python -m pip install -r beast-documentation-src/requirements-docs.txt
       - name: Build The Beast Documentation
         if: env.BEAST_DOCUMENTATION_ENABLED == 'true'
-        run: python -m mkdocs build --strict -f beast-documentation-src/mkdocs.yml
+        run: python -m mkdocs build --clean --strict -f beast-documentation-src/mkdocs.yml
       - name: Build website
         run: npm run build
       - name: Verify unpublished documentation is excluded

@@ -8,6 +8,7 @@
 .docusaurus
 .cache-loader
 /static/beast-documentation/
+/beast-documentation-src/__pycache__/
 
 # Misc
 .DS_Store
