@@ -1,0 +1,51 @@
+site_name: The Beast Documentation
+site_description: Public guide to shared GPU reservations, advisor review, and research policies
+site_url: https://vernamlab.org/beast-documentation/
+copyright: BEAST GPU Research System · Vernam Lab
+site_dir: ../static/beast-documentation
+validation:
+  nav:
+    omitted_files: warn
+  links:
+    not_found: warn
+    unrecognized_links: warn
+    anchors: warn
+# Public-only documentation. Private operational content MUST NOT be included in this build.
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - toc.follow
+  palette:
+    - scheme: default
+      primary: blue grey
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue grey
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+plugins:
+  - search
+hooks:
+  - omit_source_maps.py
+nav:
+  - Overview: index.md
+  - Student guide: students.md
+  - Advisor guide: advisors.md
+  - Resource categories: resources.md
+  - Scheduling and queues: queue.md
+  - Changes and cancellation: changes.md
+  - Usage policy: policy.md
+  - FAQ: faq.md
+  - Help: help.md
