@@ -6,6 +6,8 @@
 
 import {themes as prismThemes} from 'prism-react-renderer';
 
+const beastDocumentationEnabled = process.env.BEAST_DOCUMENTATION_ENABLED === 'true';
+
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 /** @type {import('@docusaurus/types').Config} */
@@ -163,14 +165,16 @@ const config = {
             label: 'Join Us',
             position: 'right',
           },
-          {
-            // MkDocs is served as static HTML outside the Docusaurus router.
-            href: 'pathname:///beast-documentation/',
-            target: '_self',
-            label: 'The Beast Documentation',
-            position: 'right',
-            className: 'navbar__beast-documentation',
-          },
+          ...(beastDocumentationEnabled ? [
+            {
+              // MkDocs is served as static HTML outside the Docusaurus router.
+              href: 'pathname:///beast-documentation/',
+              target: '_self',
+              label: 'The Beast Documentation',
+              position: 'right',
+              className: 'navbar__beast-documentation',
+            },
+          ] : []),
           {
             href: 'https://github.com/vernamlab/',
             label: 'GitHub',
