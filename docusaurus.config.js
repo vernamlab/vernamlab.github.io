@@ -159,6 +159,14 @@ const config = {
           {to: '/blog', label: 'Blog', position: 'right'},
           {to: '/news', label: 'News', position: 'right'},
           {
+            // MkDocs is served as static HTML outside the Docusaurus router.
+            href: 'pathname:///beast-documentation/',
+            target: '_self',
+            label: 'The Beast Documentation',
+            position: 'right',
+            className: 'navbar__beast-documentation',
+          },
+          {
             to: '/docs/join-us',
             label: 'Join Us',
             position: 'right',

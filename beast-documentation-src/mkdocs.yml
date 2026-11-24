@@ -1,0 +1,66 @@
+# User-facing BEAST documentation; edit the Markdown files in docs/.
+site_name: The Beast Documentation
+site_description: 'BEAST shared research GPU system: student requests, advisor approval, scheduling, monitoring,
+  policies, and FAQ.'
+site_url: https://vernamlab.org/beast-documentation/
+copyright: 'BEAST GPU Research System · Vernam Lab · Documentation snapshot: November 24, 2026'
+docs_dir: docs
+site_dir: ../static/beast-documentation
+validation:
+  links:
+    not_found: warn
+    unrecognized_links: warn
+theme:
+  name: material
+  language: en
+  features:
+  - navigation.tabs
+  - navigation.sections
+  - navigation.top
+  - navigation.tracking
+  - search.suggest
+  - search.highlight
+  - toc.follow
+  palette:
+  - scheme: default
+    primary: blue grey
+    accent: teal
+    toggle:
+      icon: material/brightness-7
+      name: Switch to dark mode
+  - scheme: slate
+    primary: blue grey
+    accent: teal
+    toggle:
+      icon: material/brightness-4
+      name: Switch to light mode
+plugins:
+- search
+markdown_extensions:
+- admonition
+- attr_list
+- md_in_html
+- toc
+- pymdownx.superfences: {}
+- pymdownx.details: {}
+nav:
+- Home: index.md
+- Getting started:
+  - Students: students.md
+  - Research advisors: advisors.md
+  - Resource profiles: resources.md
+  - Confidential GPU VM: vm-access.md
+- Reservations:
+  - Scheduling and queue: queue.md
+  - Cancellation and changes: cancellation.md
+  - Monitoring and email: monitoring.md
+- Rules:
+  - Usage policy: policy.md
+  - System boundaries: limitations.md
+- Help:
+  - Frequently asked questions: faq.md
+  - Troubleshooting and contact: help.md
+  - Glossary: glossary.md
+- About BEAST:
+  - System overview: system.md
+  - Administrator workflow: admins.md
