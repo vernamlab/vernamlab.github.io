@@ -15,7 +15,7 @@ jobs:
     name: Build Docusaurus
     runs-on: ubuntu-latest
     env:
-      BEAST_DOCUMENTATION_ENABLED: 'true'
+      BEAST_DOCUMENTATION_ENABLED: 'false'
     steps:
       - uses: actions/checkout@v4
         with:
